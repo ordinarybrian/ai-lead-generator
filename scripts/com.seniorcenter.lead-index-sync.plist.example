@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.seniorcenter.lead-index-sync</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>REPLACE_WITH_PROJECT_PATH/.venv/bin/python</string>
+    <string>REPLACE_WITH_PROJECT_PATH/scripts/sync_lead_index.py</string>
+    <string>--watch</string><string>--interval</string><string>60</string>
+  </array>
+  <key>WorkingDirectory</key><string>REPLACE_WITH_PROJECT_PATH</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>LEAD_INDEX_SPREADSHEET_ID</key><string>REPLACE_WITH_SHEET_ID</string>
+    <key>LEAD_INDEX_WORKSHEET</key><string>Sheet1</string>
+    <key>GOOGLE_APPLICATION_CREDENTIALS</key><string>REPLACE_WITH_CREDENTIALS_PATH</string>
+  </dict>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>/tmp/seniorcenter-lead-sync.log</string>
+  <key>StandardErrorPath</key><string>/tmp/seniorcenter-lead-sync-error.log</string>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+.venv/
+.sync/
+.env.lead-index
+
+# Python and OS-generated files
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Credentials and private keys (the example env file is safe to commit)
+.env
+.env.*
+!.env.lead-index.example
+*.service-account.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+credentials*.json
+client_secret*.json
+
+# Machine-specific configuration and runtime output
+scripts/com.seniorcenter.lead-index-sync.plist
+*.log
+
+# Exact migration snapshots duplicate private lead data
+leads/backups/
