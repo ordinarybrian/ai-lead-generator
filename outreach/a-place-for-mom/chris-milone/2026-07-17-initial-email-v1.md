@@ -1,6 +1,6 @@
 # Chris Milone — initial email, v1 (2026-07-17)
 
-Status: Draft, QA passed. Not sent.
+Status: Sent 2026-07-21. No reply yet.
 
 ---
 
