@@ -54,6 +54,80 @@ Rewrite it.
 
 ---
 
+# Pass/Fail Gates
+
+The rules below this point are style guidance. These are not. Every sentence in a draft must clear every gate before the email ships. A gate is binary — pass or fail — not a matter of degree. If a sentence fails, rewrite it. Don't argue yourself into a pass.
+
+These gates exist because the banned-phrase lists further down catch specific wording, and specific wording is easy to dodge while keeping the same underlying move. "It occurred to me..." is banned. "It connected with something I keep noticing..." says the exact same thing in different words and would sail through a phrase-based filter. The gates below test the *function* of a sentence, not just its vocabulary, so a paraphrase doesn't get a free pass.
+
+## Gate 1 — The Text-a-Friend Gate
+
+Read the sentence as if you're texting a friend about an idea that just occurred to you.
+
+PASS: sounds like something you'd type on a phone, mid-thought.
+
+FAIL: sounds like it belongs in an essay, a blog post, or an explainer voiceover.
+
+## Gate 2 — The Reflection-Sentence Gate
+
+Any sentence whose only job is to narrate how you arrived at the idea is a FAIL — regardless of the exact wording.
+
+Test: delete the sentence. If the email loses nothing but a transition, it was filler.
+
+FAIL example: "It connected with something I keep noticing: ..."
+
+This is a paraphrase of "It occurred to me..." — same function, different words. A banned-phrase list catches the phrase. This gate catches the move itself, so a rewording doesn't escape it.
+
+## Gate 3 — The Universal-Claim Gate
+
+FAIL if a sentence opens with a generalization about what "everyone," "most people," or "nobody" thinks or does, before pivoting to your actual point.
+
+FAIL example: "everyone thinks of a senior center as a building, but..."
+
+A person talking to another person leads with the specific thing they noticed. Leading with a claim about what people in general believe is a thesis-statement move — it's how an essay opens a paragraph, not how a person opens a sentence.
+
+## Gate 4 — The Rule-of-Three Gate
+
+FAIL if a sentence uses a colon followed by a curated list — especially a list of three — to "unpack" a claim.
+
+FAIL example: "somewhere broader: a senior center nearby, an assisted living option, something for mom."
+
+A colon-plus-triplet is a written-content rhythm. Nobody assembles a matched set of three examples mid-sentence when they're actually talking. If you need an example, use one. Not a set.
+
+## Gate 5 — The One-Read Gate
+
+Read the whole email once, out loud, at talking speed, no re-reading.
+
+FAIL if any sentence needs a second pass to parse. This is almost always a sign of stacked clauses — a colon, an em-dash, and an "or" list all doing work in the same sentence.
+
+## Gate 6 — The Stranger-at-a-Bar Gate
+
+Would you say this exact sentence, in this exact wording, out loud, to a stranger you just met, while telling them about an idea you're genuinely excited about?
+
+Not "is this true" or "is this well-written" — specifically, "is this how a person vocalizes a thought."
+
+## Worked Example
+
+FAIL — fails Gates 2, 3, and 4 at once:
+
+> "It connected with something I keep noticing: everyone thinks of a senior center as a building, but there's no national place online to find one — or the classes, events, and caregiver programs inside it. It's all scattered across county websites and PDFs."
+
+Why it fails:
+
+- Gate 2: the opening clause exists only to narrate "here's the observation that led me here" — pure reflection filler, just not the exact banned phrase.
+- Gate 3: "everyone thinks..." is a universal-claim setup. Nobody opens a spontaneous thought that way.
+- Gate 4: "find one — or the classes, events, and caregiver programs inside it" stacks a curated list onto an already-loaded sentence.
+
+PASS — rewrite:
+
+> "Every senior center I've looked up lives on a different county website — usually a PDF from a decade ago. There's no single place to just search your zip code and see what's near you."
+
+Why it passes: states the specific observation directly, no reflection framing, no curated triplet, and reads like something you'd say once and move on from.
+
+Run every draft against all six gates before it ships. A draft that passes the banned-phrase lists below but fails a gate is still a FAIL — the gates take precedence.
+
+---
+
 # Never Sound Like Sales
 
 Avoid:
@@ -113,6 +187,8 @@ As such...
 In conclusion...
 
 More importantly...
+
+This list is a set of known examples, not a complete inventory — new phrasings of the same move keep showing up (see Gate 2). Treat this list as a starting point for pattern-matching, not the finish line.
 
 ---
 
@@ -305,6 +381,8 @@ I wanted to reach out because...
 Instead:
 
 Start with the interesting part.
+
+This is Gate 2 in miniature — any sentence that exists to explain why you're writing, instead of just writing the thing, fails, no matter how it's phrased.
 
 ---
 
@@ -528,6 +606,8 @@ Better:
 
 "Imagine searching for your ZIP code and immediately seeing nearby senior centers, classes, volunteer opportunities and community events."
 
+A single vivid example passes Gate 4. A curated list of three does not — see the Rule-of-Three Gate above. Picture one scene, not a matched set of examples.
+
 ---
 
 # Avoid AI Symmetry
@@ -539,6 +619,8 @@ A, B, C, and D.
 Repeatedly.
 
 Break the rhythm.
+
+This is the general version of Gate 4. The gate above is the sharper, testable form of this same rule — apply the gate, not just the instinct.
 
 ---
 
@@ -727,6 +809,10 @@ the positioning
 the negotiation
 
 ---
+
+# Before You Send
+
+Run the draft against all six Pass/Fail Gates, in order, sentence by sentence. Not a skim — an actual pass through each gate. A draft that reads fine on a fast read can still fail Gate 2 or Gate 4; those two are the easiest to write past without noticing, because they're about sentence *function*, not word choice.
 
 # Final Rule
 

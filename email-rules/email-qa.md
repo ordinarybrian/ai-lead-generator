@@ -7,118 +7,50 @@ Every outbound email must pass every section below.
 
 If any item fails, rewrite the email.
 
+This file audits a finished draft. It assumes `email-writing-rules.md` as the source of truth for phrase lists, banned words, and the Pass/Fail Gate definitions — those are not repeated here in full. Where a test below checks against a list defined in the rules file, go read that list fresh each time rather than relying on memory of it; the rules file is what gets updated when a new AI-tell is discovered, not this one.
+
 ---
 
-# Test 1 — Human Test
+# Test 1 — Gate Check (Human Test)
 
-Read the email out loud.
+Run the draft against all six Pass/Fail Gates defined in `email-writing-rules.md`, sentence by sentence. Not a skim — check every sentence against every gate.
 
-Question:
+1. Text-a-Friend Gate
+2. Reflection-Sentence Gate
+3. Universal-Claim Gate
+4. Rule-of-Three Gate
+5. One-Read Gate
+6. Stranger-at-a-Bar Gate
 
-Would I actually say this in conversation?
+Full definitions, FAIL examples, and a worked before/after rewrite are in `email-writing-rules.md` under "Pass/Fail Gates" — read them there, don't rely on the one-line summaries above.
 
 PASS
 
-- Sounds like natural speech.
-- Slightly imperfect rhythm.
-- Doesn't sound rehearsed.
+All six gates clear on every sentence.
 
 FAIL
 
-- Sounds like a blog post.
-- Sounds like ChatGPT.
-- Sounds like LinkedIn.
-- Sounds like marketing copy.
+Any single gate fails on any single sentence. Note which gate(s) failed and on which sentence when reporting the result — "fails Gate 2" is a more useful note than "sounds off."
 
 ---
 
 # Test 2 — AI Test
 
-Look specifically for AI wording.
+Check every sentence against the "Never Sound Like AI" phrase list in `email-writing-rules.md`.
 
-FAIL immediately if you find phrases like:
-
-It got me thinking...
-
-The thought that followed...
-
-It occurred to me...
-
-It struck me...
-
-The reason I'm reaching out...
-
-I'd love to...
-
-I'd welcome the opportunity...
-
-I'd appreciate the opportunity...
-
-Thank you for your consideration...
-
-Please don't hesitate...
-
-Furthermore...
-
-Additionally...
-
-Moreover...
-
-With that in mind...
-
-Against this backdrop...
-
-In today's landscape...
-
-In conclusion...
+FAIL if any listed phrase appears, or a close paraphrase of one — a rewording that does the same job as a banned phrase is still a Gate 2 failure (see Test 1), even if the exact words differ.
 
 PASS
 
-None of these appear.
+None of those phrases, or functional equivalents of them, appear.
 
 ---
 
 # Test 3 — Corporate Buzzword Test
 
-Count buzzwords.
+Check every sentence against the "Avoid Corporate Buzzwords" list in `email-writing-rules.md`.
 
-Examples:
-
-strategic
-
-leverage
-
-unlock
-
-optimize
-
-maximize
-
-robust
-
-scalable
-
-holistic
-
-ecosystem
-
-synergy
-
-category-defining
-
-transformative
-
-premium asset
-
-digital asset
-
-value proposition
-
-brand asset
-
-future-proof
-
-If more than ONE appears...
+If more than ONE listed buzzword appears...
 
 FAIL
 
@@ -129,6 +61,8 @@ FAIL
 Question:
 
 Does this sound like someone trying to sell something?
+
+See "Never Sound Like Sales" and "Don't Sell" in `email-writing-rules.md`.
 
 PASS
 
@@ -181,6 +115,8 @@ The email explains everything.
 Question:
 
 Can the recipient imagine using SeniorCenter.com?
+
+See "Show, Don't Tell" in `email-writing-rules.md` — a single vivid image passes; a curated list of examples fails Gate 4 instead.
 
 PASS
 
@@ -248,7 +184,7 @@ Negotiation.
 
 # Test 11 — Adjective Test
 
-Highlight every adjective.
+Highlight every adjective. See "Don't Stack Adjectives" in `email-writing-rules.md`.
 
 If there are more than about one adjective every two sentences...
 
@@ -258,7 +194,7 @@ FAIL
 
 # Test 12 — "Could" Test
 
-Count the word "could."
+Count the word "could." See "Don't Repeat 'Could'" in `email-writing-rules.md`.
 
 0–2
 
@@ -414,10 +350,10 @@ Once the review is complete, output the judgement using the following syntax:
 
 EMAIL QA
 
-Human Test............... PASS
-AI Test.................. PASS
+Gate Check (Human Test)... PASS
+AI Test................... PASS
 Buzzword Test............ PASS
-Sales Test............... FAIL
+Sales Test............... PASS
 Executive Test........... PASS
 Curiosity Test........... PASS
 Vision Test.............. PASS
