@@ -4,7 +4,7 @@
 
 - Organization: LeadingAge
 - Title: Senior Vice President, Marketing and Communications — verified 2026-08-06 directly via LeadingAge's own staff page (leadingage.org/departments/communications-and-marketing/). Resolves the seed-data conflict between "Senior Director of Marketing and Engagement" and "Senior Vice President of Marketing & Communications" — LeadingAge's own current listing uses the SVP title; older aggregator sites (Wiza, ZoomInfo, Datanyze) still show the Senior Director title, most likely reflecting a promotion those trackers haven't caught up with yet.
-- LinkedIn: **Not located this session.** Multiple searches surfaced only third-party aggregator profiles (Wiza, ZoomInfo, Datanyze), never a direct linkedin.com/in/ URL. Needs a manual LinkedIn search before outreach — do not fabricate or guess a URL.
+- LinkedIn: https://www.linkedin.com/in/brycekirchoff/ — provided by the user 2026-08-06. Automated fetch was attempted to cross-check name/title/employer against this record but LinkedIn blocked the request (HTTP 999, consistent with this project's other LinkedIn-fetch attempts); treat as user-supplied, not independently content-verified. Reasonably high confidence given the vanity URL matches his name exactly, but confirm title/employer by opening it manually before citing it as "verified" in outreach.
 - Email: **Not verified, no supporting data point found.** A generic pattern guess following common nonprofit convention would be something like `bryce.kirchoff@leadingage.org` or `bkirchoff@leadingage.org` — this is offered only as a bare, unconfirmed possibility with no domain-specific pattern evidence behind it (no RocketReach/Hunter-style check was completed this session). Treat as the lowest confidence tier; verify the domain's actual pattern and run a mail-check before using.
 
 ## Background (sourced via search, not independently fetched)
@@ -24,7 +24,7 @@ LeadingAge doesn't have a major direct-to-consumer digital presence comparable t
 
 ## Cautions
 
-- LinkedIn profile not found — do not include a guessed or fabricated URL in any outreach draft.
+- LinkedIn URL was supplied by the user (not found via this session's own research) and not independently opened/confirmed (LinkedIn blocked automated fetch) — verify the name/title/employer match by opening it manually before citing it in outreach.
 - Email is an unverified, low-confidence pattern guess with no supporting data point — do not treat as reliable; verify before sending.
 - No public quotes, interviews, or specific statements from Kirchoff were found this session — none should be referenced or invented in outreach copy.
 - General LeadingAge organization facts (CEO name, membership size) referenced in `organization.md` were not independently re-verified this session — confirm before finalizing any pitch that leans on them.
