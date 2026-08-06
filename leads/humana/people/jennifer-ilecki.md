@@ -23,9 +23,11 @@
 - Her career background (large-scale consumer marketing at Capital One and Marriott, both brands with major digital/loyalty/experience footprints) suggests she is a plausible evaluator of a consumer-facing digital-brand asset like SeniorCenter.com, not just a policy/compliance-oriented marketing lead.
 - Humana's own existing programs (Humana Neighborhood Centers directory, CenterWell senior activity centers, Points of Caregiving, Caring for Others resource hub — see organization.md) give a genuinely specific, non-generic reason a CMO at this company might find the domain relevant, unlike a cold pitch based only on SEO/traffic potential.
 
-## Angle for outreach (working — not drafted, per project rules)
+## Angle for outreach (drafted 2026-08-06, revised same day after correction)
 
-The strongest honest thread: Humana already runs a real, physical network of neighborhood senior centers with an online directory/search tool, plus caregiver-resource content — SeniorCenter.com is close to a plain-language description of what that network already is. The pitch should reference that specific existing infrastructure (Neighborhood Centers, CenterWell activity spaces, caregiver resources) rather than generic domain-value language, and should be framed as "you already have this thing, here's a domain that names it clearly" rather than proposing a new business line.
+**CORRECTION (2026-08-06):** the angle originally drafted here leaned on Humana Neighborhood Centers, which was discontinued 2025-09-18 — see leads/humana/organization.md correction note. Do not reference Neighborhood Centers in any outreach to Ilecki.
+
+Current thread: Humana's CenterWell subsidiary runs activity centers open to the public (not just patients) — bingo, movie nights, fitness, health education — with a zip-code-searchable events page (https://www.centerwellprimarycare.com/en/events — note: the bare domain centerwellprimarycare.com without "www." does not resolve; use the full URL), re-verified active 2026-08-06. SeniorCenter.com is close to a plain-language description of what that already is. Framed as "you already have this thing, here's a name for it," not a new business line. Draft: outreach/humana/jennifer-ilecki/2026-08-06-initial-email-v1.md.
 
 ## Cautions
 

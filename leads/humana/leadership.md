@@ -18,3 +18,11 @@ Per the project's contact-selection order (CMO > Chief Growth Officer > Chief Di
 **Jennifer Ilecki — Chief Marketing Officer, Humana Inc.** is confirmed as the recommended primary contact. No change from the seed data is needed; this record upgrades her status from "title unknown, verify" to "confirmed CMO, strong role-priority fit."
 
 Backup/secondary contacts if Ilecki does not respond, per the role-priority order: Hayley Doran (Chief Growth Officer) or Damian Warren (Chief Digital Officer) would be logical second attempts — both outrank the fallback options further down the list, though neither has been researched in depth for this file (no LinkedIn/email research done on them; flagged as a next step only, not a completed record).
+
+## Update 2026-08-06: Ilecki on parental leave until October
+
+Initial email sent 2026-08-06 to jilecki@humana.com produced an out-of-office auto-reply (not a bounce — confirms the address is valid): "Please note that I will be on parental leave until October. If you need assistance, please reach out to Jordan Kush and she can help guide you to the appropriate contact(s)." Signed "Jenn."
+
+**Jordan Kush** — named as the interim redirect contact. Not yet researched: no title, no LinkedIn, no email confirmed. Needs a full research pass (title, role-priority fit, LinkedIn, email pattern) before any outreach — do not assume she outranks Doran or Warren in the role-priority order without checking her actual title first.
+
+Open decision (not yet made): pursue Jordan Kush now, or hold this thread until Ilecki returns in October and re-send then. No default assumed here — flag for Brian's call.

@@ -22,5 +22,6 @@ SeniorCenter.com could become the public-facing front door to NISC's senior cent
 ## Research status
 
 - Executive leadership directly confirmed via ncoa.org (see `leadership.md`).
-- NISC's scale figure (2,000+ affiliates) came from a search snippet, not an independently fetched primary source — worth confirming directly via ncoa.org/page/the-national-institute-of-senior-centers/ before leaning on the specific number in outreach copy.
+- NISC's scale figure (2,000+ affiliates) was originally sourced from a single search snippet. **Re-verified 2026-08-06:** now corroborated by a second independent NCOA page (ncoa.org/page/the-national-institute-of-senior-centers/), surfaced during a fact-checking pass triggered by the Humana Neighborhood Centers correction (see leads/humana/organization.md). No longer a single-source claim.
 - No senior marketing/growth/digital executive currently appears in NCOA's executive team — see `leadership.md` for the reasoning behind the recommended contact.
+- **CAUTION (2026-08-06):** an existing site, SeniorCenter.us, already operates a partial national senior-center directory (8,271 senior center listings, all 50 states) — not run or backed by NCOA. Outreach copy should not claim "there's no single place online" (false, checkable); the accurate claim is that nothing carries NCOA's own name or backing. See leads/seniorcenter-us/organization.md.
