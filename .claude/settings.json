@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "WebSearch",
+      "WebFetch(domain:www.beckerspayer.com)",
+      "WebFetch(domain:www.homeinstead.com)",
+      "WebFetch(domain:www.ncoa.org)",
+      "WebFetch(domain:www.honorcare.com)",
+      "WebFetch(domain:www.unitedhealthgroup.com)",
+      "WebFetch(domain:homehealthcarenews.com)",
+      "WebFetch(domain:www.marketersthatmatter.com)",
+      "WebFetch(domain:www.highmoon-consulting.com)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:leadingage.org)",
+      "WebFetch(domain:rocketreach.co)",
+      "WebFetch(domain:humana.gcs-web.com)",
+      "WebFetch(domain:www.usaging.org)",
+      "WebFetch(domain:theorg.com)",
+      "WebFetch(domain:www.uhc.com)",
+      "WebFetch(domain:www.dcnnews.com)",
+      "WebFetch(domain:www.humana.com)",
+      "WebFetch(domain:www.fiercehealthcare.com)",
+      "Bash(awk -F',' '{print NF}' leads/lead-index.csv)",
+      "Bash(awk -F',' 'NR==1{next} /Home Instead|^Humana|LeadingAge|National Council on Aging|UnitedHealthCare|^USAging/{print NR\": \"NF\" fields - \"$1}' leads/lead-index.csv)"
+    ]
+  }
+}

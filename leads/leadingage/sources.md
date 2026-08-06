@@ -1,0 +1,11 @@
+# LeadingAge sources
+
+All checked 2026-08-06 unless noted otherwise.
+
+- https://leadingage.org/departments/communications-and-marketing/ — **fetched directly.** Confirms Bryce Kirchoff's current title (Senior Vice President, Marketing and Communications) and lists the Communications and Marketing department staff roster (Jacqui Fuller, Colleen Knudsen, Lisa Sanders, Eddie Hobbs, Nathan Sheffer, Emily Statz).
+- https://wiza.co/d/leadingage/a7e2/bryce-kirchoff — reviewed via search snippet, not independently opened. Third-party aggregator listing an older title ("Senior Director of Marketing and Engagement"); used only to document the title discrepancy, not as a primary source for the current title.
+- https://www.zoominfo.com/pic/leadingage-pa/345668772 and https://www.datanyze.com/companies/leadingage/345668772 — reviewed via search snippet, not independently opened. Corroborate the SVP Marketing & Communications title and general background (Los Angeles-based) in aggregate search summaries.
+- https://www.nextavenue.org/writer/bryce-kirchoff/ — referenced via search snippet, not independently opened. Source of the claim that Kirchoff holds a master's in New Media Management from Syracuse University's S.I. Newhouse School of Public Communications and has produced web/social campaigns across the media industry; he appears to have contributed writing to Next Avenue (a PBS-affiliated aging-focused outlet).
+- General LeadingAge organization facts (membership size, headquarters, CEO name) — drawn from general background knowledge, **not independently verified this session.** A planned direct fetch of https://leadingage.org/about-us/ was attempted but did not complete because web-research tool access (WebSearch/WebFetch) was interrupted partway through this research session. Recommend fetching this page directly before outreach to confirm current membership figures and CEO name.
+- LinkedIn: no confirmed linkedin.com/in/ URL was located for Bryce Kirchoff this session despite multiple searches — only third-party aggregator pages (Wiza, ZoomInfo, Datanyze) surfaced. Needs a manual LinkedIn search before outreach.
+- Email address: not researched this session (no email-pattern data point was gathered before tool access was interrupted). Do not use any guessed address without first doing pattern research or verification.

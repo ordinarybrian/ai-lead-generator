@@ -1,0 +1,12 @@
+# USAging sources
+
+All checked 2026-08-06 unless otherwise noted.
+
+- https://www.usaging.org/staff — supports: full staff/leadership roster and titles (Sandy Markwood, CEO; Geoffrey Martiny, CFO; Bethany Coulter, Chief Communications; Deborah Stone-Walls, Chief Programs and Services; Amy E. Gotwals, Chief Policy and Membership) and their listed official email addresses, taken directly from the organization's own site content.
+- https://www.usaging.org/content.asp?contentid=633 — Sandy Markwood's official bio page on usaging.org; referenced via search snippets (direct fetch was not completed this session). Supports general bio framing.
+- https://www.linkedin.com/in/sandy-markwood-a46a94237/ — seed LinkedIn URL from lead-index.csv; corroborated by an independent search result titled "Sandy Markwood - Chief Executive Officer at USAging | LinkedIn," confirming title match. Not independently opened/confirmed this session beyond the search snippet.
+- https://www.usaging.org/ourmission and https://www.usaging.org/about — support: USAging's mission statement, representation of the Area Agencies on Aging network, and Title VI Native American Aging Programs advocacy since 1988.
+- https://www.usaging.org/article_content.asp?adminkey=ec02ee1d95c866e0bfea6ac4335391fc&article=153 ("n4a is Now USAging!") — supports: USAging's prior name, National Association of Area Agencies on Aging (n4a), and its rebrand.
+- https://www.healthinaging.org/tools-and-tips/national-association-area-agencies-aging and https://www.usaging.org/eldercareloc — support: description of the Eldercare Locator program, its founding in 1991, its funding/administration relationship with the U.S. Administration on Aging (Administration for Community Living), and its scale (~400,000 requests/year, referrals to 600+ AAAs and ~300 Title VI programs).
+- https://eldercare.acl.gov — the Eldercare Locator's live .gov destination; referenced for the contrast between USAging's existing federally-branded referral tool and a possible standalone consumer-facing SeniorCenter.com property. Not independently fetched this session.
+- Search-result snippet referencing Sandy Markwood's pre-USAging career (Deputy Director of County Services, National Association of Counties; earlier roles at Albemarle County, VA and the National League of Cities; BA/MA from the University of Virginia) — sourced from aggregated search results citing naco.org/people/sandy-markwood and iasquared.org/bh-leadership/sandy-markwood; not independently opened this session, treat as reasonably reliable but secondhand.
