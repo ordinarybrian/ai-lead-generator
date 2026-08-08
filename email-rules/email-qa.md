@@ -1,6 +1,6 @@
 # EMAIL_QA.md
 
-# SeniorCenter.com Brokerage
+# Lead-Generation Outreach
 ## Email Pass / Fail Checklist
 
 Every outbound email must pass every section below.
@@ -8,6 +8,36 @@ Every outbound email must pass every section below.
 If any item fails, rewrite the email.
 
 This file audits a finished draft. It assumes `email-writing-rules.md` as the source of truth for phrase lists, banned words, and the Pass/Fail Gate definitions — those are not repeated here in full. Where a test below checks against a list defined in the rules file, go read that list fresh each time rather than relying on memory of it; the rules file is what gets updated when a new AI-tell is discovered, not this one.
+
+---
+
+# Test 0 — Fact & Consent Check
+
+Run this before any of the tone/style tests below. A perfectly-written email built on a
+stale fact or sent to a suppressed contact is still a FAIL, and no amount of gate-passing
+prose fixes that.
+
+Check the lead's row in `leads/lead-index.csv` and its `leads/<organization-slug>/`
+files:
+
+1. Is `do_not_contact` set to `TRUE` for this lead? If so, stop — do not send or keep
+   drafting. Flag it instead of proceeding.
+2. Does every fact the draft references about the recipient (title, company, a recent
+   event or initiative) match the current lead record, and is it traceable to
+   `leads/<organization-slug>/sources.md`?
+3. Is `last_verified` on the lead row recent enough to trust? If it's stale, re-verify
+   the fact before sending — don't ship a draft built on an assumption that the contact
+   still holds that title or that company detail is still accurate.
+
+PASS
+
+`do_not_contact` is not set, and every fact referenced in the draft is current and
+traceable to a source.
+
+FAIL
+
+`do_not_contact` is `TRUE`, or any referenced fact is stale, unverified, or untraceable.
+Re-verify or rewrite before continuing to the tests below.
 
 ---
 
@@ -114,7 +144,7 @@ The email explains everything.
 
 Question:
 
-Can the recipient imagine using SeniorCenter.com?
+Can the recipient imagine what's being offered actually working for them?
 
 See "Show, Don't Tell" in `email-writing-rules.md` — a single vivid image passes; a curated list of examples fails Gate 4 instead.
 
@@ -124,7 +154,7 @@ The email paints a picture.
 
 FAIL
 
-The email only talks about the domain.
+The email only talks about the thing itself, not what it enables.
 
 ---
 
@@ -312,11 +342,15 @@ FAIL
 
 # Final Gate
 
-Imagine the recipient is:
+Imagine the recipient is one of this project's actual top prospects.
 
-- Anna Banks, CMO of AARP
-- Chris Milone, CMO of A Place for Mom
-- David Cygan, CMO of Brookdale Senior Living
+**Replace the placeholder names below with this project's current top prospects from
+`leads/lead-index.csv` / `PROJECT.md` before running QA** — the gate only works if you
+picture a real, specific person.
+
+- [PROSPECT 1 NAME], [TITLE] of [ORGANIZATION 1]
+- [PROSPECT 2 NAME], [TITLE] of [ORGANIZATION 2]
+- [PROSPECT 3 NAME], [TITLE] of [ORGANIZATION 3]
 
 Would you confidently send this email exactly as written?
 
@@ -350,6 +384,7 @@ Once the review is complete, output the judgement using the following syntax:
 
 EMAIL QA
 
+Fact & Consent Check..... PASS
 Gate Check (Human Test)... PASS
 AI Test................... PASS
 Buzzword Test............ PASS

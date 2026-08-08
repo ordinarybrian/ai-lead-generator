@@ -1,6 +1,6 @@
 # LLM_WRITING_RULES.md
 
-# SeniorCenter.com Brokerage Project
+# Lead-Generation Outreach
 ## LLM Writing & Reasoning Rules
 
 These rules override normal "AI assistant" behavior. The objective is to write like an intelligent human professional, not like a language model or marketing copywriter.
@@ -82,7 +82,7 @@ This is a paraphrase of "It occurred to me..." — same function, different word
 
 FAIL if a sentence opens with a generalization about what "everyone," "most people," or "nobody" thinks or does, before pivoting to your actual point.
 
-FAIL example: "everyone thinks of a senior center as a building, but..."
+FAIL example: "everyone thinks of onboarding as a one-time thing, but..."
 
 A person talking to another person leads with the specific thing they noticed. Leading with a claim about what people in general believe is a thesis-statement move — it's how an essay opens a paragraph, not how a person opens a sentence.
 
@@ -90,7 +90,7 @@ A person talking to another person leads with the specific thing they noticed. L
 
 FAIL if a sentence uses a colon followed by a curated list — especially a list of three — to "unpack" a claim.
 
-FAIL example: "somewhere broader: a senior center nearby, an assisted living option, something for mom."
+FAIL example: "somewhere broader: a support inbox, a status dashboard, an escalation path."
 
 A colon-plus-triplet is a written-content rhythm. Nobody assembles a matched set of three examples mid-sentence when they're actually talking. If you need an example, use one. Not a set.
 
@@ -108,19 +108,22 @@ Not "is this true" or "is this well-written" — specifically, "is this how a pe
 
 ## Worked Example
 
+This example uses a generic B2B outreach scenario — swap in wording relevant to your
+own project, but keep testing new drafts against all three gates shown here.
+
 FAIL — fails Gates 2, 3, and 4 at once:
 
-> "It connected with something I keep noticing: everyone thinks of a senior center as a building, but there's no national place online to find one — or the classes, events, and caregiver programs inside it. It's all scattered across county websites and PDFs."
+> "It connected with something I keep noticing: everyone assumes support tickets get triaged the moment they're filed, but most teams are still routing them by hand — through a shared inbox, a spreadsheet, and a Slack channel. It's all scattered across three different tools."
 
 Why it fails:
 
 - Gate 2: the opening clause exists only to narrate "here's the observation that led me here" — pure reflection filler, just not the exact banned phrase.
-- Gate 3: "everyone thinks..." is a universal-claim setup. Nobody opens a spontaneous thought that way.
-- Gate 4: "find one — or the classes, events, and caregiver programs inside it" stacks a curated list onto an already-loaded sentence.
+- Gate 3: "everyone assumes..." is a universal-claim setup. Nobody opens a spontaneous thought that way.
+- Gate 4: "a shared inbox, a spreadsheet, and a Slack channel" stacks a curated list onto an already-loaded sentence.
 
 PASS — rewrite:
 
-> "Every senior center I've looked up lives on a different county website — usually a PDF from a decade ago. There's no single place to just search your zip code and see what's near you."
+> "Every support ticket I saw on your job posting mentioned routing tickets through a shared inbox by hand. There's no single place to see what's actually urgent."
 
 Why it passes: states the specific observation directly, no reflection framing, no curated triplet, and reads like something you'd say once and move on from.
 
@@ -494,15 +497,15 @@ Keep emails under 250 words whenever possible.
 
 Avoid:
 
-unique premium category-defining domain
+unique premium category-defining opportunity
 
 Instead:
 
-domain
+opportunity
 
 or
 
-great domain
+good opportunity
 
 ---
 
@@ -550,21 +553,11 @@ value creation
 
 Instead of:
 
-community engagement
+customer engagement
 
-Say:
-
-local classes
-
-events
-
-volunteers
-
-caregivers
-
-technology training
-
-fitness programs
+Say the concrete thing this actually means for the recipient — a specific feature,
+workflow, ticket type, or moment in their process. Vague category words ("engagement,"
+"efficiency," "experience") are a sign the sentence hasn't gotten specific yet.
 
 ---
 
@@ -600,11 +593,11 @@ Paint the picture.
 
 Bad:
 
-"This domain has enormous potential."
+"This has enormous potential."
 
 Better:
 
-"Imagine searching for your ZIP code and immediately seeing nearby senior centers, classes, volunteer opportunities and community events."
+"Imagine a candidate applying and seeing their application status update in real time, instead of waiting three weeks for a form-letter rejection."
 
 A single vivid example passes Gate 4. A curated list of three does not — see the Rule-of-Three Gate above. Picture one scene, not a matched set of examples.
 
@@ -644,7 +637,7 @@ Instead:
 
 ---
 
-# Never Oversell The Domain
+# Never Oversell What You're Offering
 
 Don't call it:
 
@@ -660,21 +653,18 @@ world-class
 
 Instead...
 
-Explain what someone could build.
+Explain what someone could build or do with it.
 
 ---
 
-# Frame The Domain Correctly
+# Frame The Offer Correctly
 
-We're not selling:
+We're not selling the thing itself (the domain, the resume, the API).
 
-SeniorCenter.com
+We're selling the possibility it unlocks — see "What Is Being Offered or Sought" and
+"Positioning / Pitch Angle" in `PROJECT.md` for how this project should frame it.
 
-We're selling the possibility that:
-
-someone becomes the national destination for senior centers.
-
-The domain is simply the foundation.
+The thing itself is simply the foundation.
 
 ---
 
@@ -718,27 +708,23 @@ justify pricing
 
 ---
 
-# Pricing
+# Pricing / Compensation / Budget
 
-Do not mention pricing unless instructed.
+Do not mention price, compensation, or budget unless instructed.
 
-If discussing pricing:
+If this project has commercial terms, they live in the "Optional: Commercial Terms"
+section of `PROJECT.md` — read the current figures there rather than assuming any are
+fixed here.
 
-Current asking price:
-
-$149,000
-
-Current minimum acceptable offer:
-
-$75,000
-
-Never disclose the seller's confidential floor.
+Never disclose a confidential floor, minimum, or budget ceiling beyond what `PROJECT.md`
+marks as shareable.
 
 ---
 
-# Homepage Mockup
+# Supporting Visual or Reference Assets
 
-The homepage concept exists to help people visualize the idea.
+A mockup, portfolio piece, one-pager, or similar asset exists to help people visualize
+the idea.
 
 It is NOT:
 
@@ -756,7 +742,7 @@ Don't attach it unless instructed.
 
 # Prospect Research
 
-When researching companies:
+When researching organizations:
 
 Think like a consultant.
 
@@ -766,39 +752,24 @@ Why would THEY want this?
 
 Not:
 
-Who serves seniors?
+Who's in the target category?
 
 ---
 
 # Contact Selection
 
-Prefer:
+Follow the contact-selection priority order defined in `PROJECT.md` for this project.
 
-CMO
-
-Chief Growth Officer
-
-Chief Digital Officer
-
-VP Marketing
-
-Brand
-
-Growth
-
-Digital
-
-before:
-
-CEO
+Do not default to the most senior title (CEO, founder) as the first contact unless
+`PROJECT.md` says the organization is small enough that no better-fit role exists.
 
 ---
 
 # Always Ask
 
-If this company bought SeniorCenter.com tomorrow...
+If this organization said yes tomorrow...
 
-What would they build?
+What would actually happen next — what would they build, hire, sign, or do?
 
 That answer becomes:
 
