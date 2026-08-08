@@ -131,6 +131,14 @@ Run every draft against all six gates before it ships. A draft that passes the b
 
 ---
 
+# Never Use Em Dashes
+
+Never use an em dash (—), anywhere, for any reason. Not for an aside, not for a list, not for rhythm.
+
+Rewrite with a period, a comma, or a parenthetical instead. This applies even when an em dash would otherwise pass every gate above. A sentence that seems to need one gets split into two sentences instead.
+
+---
+
 # Never Sound Like Sales
 
 Avoid:
@@ -451,26 +459,47 @@ The sale comes later.
 
 ---
 
+## Don't Invent Their Pain
+
+Do not assume a prospect dislikes managing hosting, maintenance, or technical support just because they don't advertise those services.
+
+Research can establish what they publicly offer. It cannot establish how they feel about the work.
+
+Bad:
+
+"You don't want to waste time managing hosting."
+
+Better:
+
+"If you ever have a client you'd rather not keep supporting after launch, that's the part of the work I handle."
+
+Offer Inland Elite as an option. Don't manufacture a problem for the prospect.
+
+---
+
+## Don't Position Inland Elite as a Competitor
+
+For designers, developers, and agencies, Inland Elite should complement their existing client relationship rather than threaten it.
+
+The recipient should understand that Inland Elite can handle hosting, migrations, maintenance, and ongoing technical support without trying to take over their design, development, marketing, or creative work.
+
+This does not need to be explicitly stated in every email. It does need to be clear from the overall framing.
+
+---
+
 # Curiosity Beats Persuasion
 
-Prefer:
+Create curiosity by leaving room for a response, not by narrating your thought process.
 
-Why isn't there...
+State the specific observation directly and ask a natural question.
 
-I wondered...
-
-I kept thinking about...
-
-This made me curious...
+Prefer questions that invite the recipient to explain how they currently handle something.
 
 Instead of:
 
 Here's why...
-
 The opportunity is...
-
 The value is...
-
 The benefits are...
 
 ---
@@ -555,9 +584,7 @@ Instead of:
 
 customer engagement
 
-Say the concrete thing this actually means for the recipient — a specific feature,
-workflow, ticket type, or moment in their process. Vague category words ("engagement,"
-"efficiency," "experience") are a sign the sentence hasn't gotten specific yet.
+Say the concrete thing this actually means for the recipient — a specific feature, workflow, ticket type, or moment in their process. Vague category words ("engagement," "efficiency," "experience") are a sign the sentence hasn't gotten specific yet.
 
 ---
 
@@ -659,20 +686,39 @@ Explain what someone could build or do with it.
 
 # Frame The Offer Correctly
 
-We're not selling the thing itself (the domain, the resume, the API).
+Inland Elite is offering a professional relationship, not trying to sell hosting in the first email.
 
-We're selling the possibility it unlocks — see "What Is Being Offered or Sought" and
-"Positioning / Pitch Angle" in `PROJECT.md` for how this project should frame it.
+The prospect should understand that Brian can take responsibility for hosting, migrations, WordPress maintenance, and ongoing technical support when those are things they don't want to handle themselves.
 
-The thing itself is simply the foundation.
+Do not imply that the prospect has a problem unless research supports it.
+
+The first email introduces Inland Elite as a useful option. It does not need to define the eventual partnership structure.
 
 ---
 
 # Personalized Outreach
 
-Every email should answer:
+## Match the Outreach to the Lead Type
 
-Why THIS company?
+Do not use the same pitch structure for every qualified lead.
+
+For a freelancer or solo designer: Focus on being someone they can hand a client to when they don't want responsibility for hosting or ongoing technical support.
+
+For a small creative or branding studio: Focus on what happens after a website launches and where Inland Elite can complement the studio's work.
+
+For a marketing or web agency: Consider hosting overflow, smaller accounts, legacy clients, migrations, maintenance, or technical work that may not make sense for the agency to handle internally.
+
+For an SEO or marketing consultant: Consider whether hosting performance, WordPress maintenance, or technical problems create work outside their core service.
+
+For an MSP or IT provider: Position Inland Elite as the website/WordPress resource while they retain the IT relationship.
+
+These are starting points, not assumptions. Prospect-specific research takes precedence.
+
+The email must still answer:
+
+Why THIS organization?
+
+Lead type informs the angle. Research determines the actual message.
 
 Never send generic outreach.
 
@@ -680,15 +726,7 @@ Research first.
 
 Reference:
 
-recent interviews
-
-public comments
-
-company initiatives
-
-leadership priorities
-
-public strategy
+Services offered, websites they've built, platforms they use, whether they advertise hosting/maintenance, how they describe post-launch support, client type, location, and something specific about their work.
 
 ---
 
@@ -709,6 +747,25 @@ justify pricing
 ---
 
 # Pricing / Compensation / Budget
+
+## Don't Invent Partnership Terms
+
+Do not offer or imply:
+
+- referral commissions
+- wholesale pricing
+- partner discounts
+- revenue sharing
+- white-label arrangements
+- exclusivity
+- guaranteed lead exchanges
+
+unless those terms have been explicitly established in `PROJECT.md`.
+
+A first conversation does not require a formal partner program.
+
+If a prospect is interested, learn what kind of relationship would actually be useful
+before proposing commercial terms.
 
 Do not mention price, compensation, or budget unless instructed.
 
@@ -767,9 +824,7 @@ Do not default to the most senior title (CEO, founder) as the first contact unle
 
 # Always Ask
 
-If this organization said yes tomorrow...
-
-What would actually happen next — what would they build, hire, sign, or do?
+If this prospect were interested tomorrow, what would the relationship actually look like? Would they refer a client, hand off an existing hosting account, use Inland Elite for a migration, or keep Brian as a technical resource for future projects?
 
 That answer becomes:
 

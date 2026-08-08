@@ -28,6 +28,8 @@ files:
 3. Is `last_verified` on the lead row recent enough to trust? If it's stale, re-verify
    the fact before sending — don't ship a draft built on an assumption that the contact
    still holds that title or that company detail is still accurate.
+4. Does the draft claim or imply that the prospect dislikes, struggles with, or wants to stop handling hosting or technical support? If so, is that claim actually supported by the research? If not, rewrite it as an option rather than an assumed pain point.
+5. Does the draft offer or imply any partnership terms that have not been explicitly defined in `PROJECT.md`? If so, FAIL.
 
 PASS
 
@@ -102,6 +104,15 @@ FAIL
 
 Feels like a pitch.
 
+For designers, developers, and agencies, also ask:
+
+Could this email reasonably make the recipient think Inland Elite wants to compete for
+their existing design, development, marketing, or creative relationship?
+
+If yes...
+
+FAIL
+
 ---
 
 # Test 5 — Executive Test
@@ -150,7 +161,7 @@ See "Show, Don't Tell" in `email-writing-rules.md` — a single vivid image pass
 
 PASS
 
-The email paints a picture.
+The language is such that at a 7th grade reading level the recipient can understand how Inland Elite might fit into their existing client workflow without requiring a lengthy explanation. A concrete example may be used when it helps, but isn't mandatory.
 
 FAIL
 
@@ -165,6 +176,17 @@ Question:
 Could I replace the company name with another company and send the same email?
 
 If yes...
+
+FAIL
+
+Does the outreach angle make sense for this lead's `lead_type`, while still being based
+on organization-specific research?
+
+A freelancer, creative studio, marketing agency, and MSP should not receive the same
+underlying pitch with names swapped.
+
+If the angle comes only from the lead type and not from research about this specific
+organization...
 
 FAIL
 
@@ -340,6 +362,20 @@ FAIL
 
 ---
 
+# Test 21, Em Dash Test
+
+Search the draft for "—". See "Never Use Em Dashes" in `email-writing-rules.md`.
+
+PASS
+
+Zero em dashes.
+
+FAIL
+
+One or more. Rewrite the sentence with a period, a comma, or a parenthetical instead.
+
+---
+
 # Final Gate
 
 Imagine the recipient is one of this project's actual top prospects.
@@ -348,9 +384,9 @@ Imagine the recipient is one of this project's actual top prospects.
 `leads/lead-index.csv` / `PROJECT.md` before running QA** — the gate only works if you
 picture a real, specific person.
 
-- [PROSPECT 1 NAME], [TITLE] of [ORGANIZATION 1]
-- [PROSPECT 2 NAME], [TITLE] of [ORGANIZATION 2]
-- [PROSPECT 3 NAME], [TITLE] of [ORGANIZATION 3]
+- Valik Rudd, Owner / Senior Web Developer of Timber Web Design
+- Heather Valencia, Owner & Business Manager of Ravenous Raven Design
+- Kevin Raverty, Owner of 509 Designs
 
 Would you confidently send this email exactly as written?
 
@@ -384,18 +420,22 @@ Once the review is complete, output the judgement using the following syntax:
 
 EMAIL QA
 
-Fact & Consent Check..... PASS
-Gate Check (Human Test)... PASS
-AI Test................... PASS
-Buzzword Test............ PASS
-Sales Test............... PASS
-Executive Test........... PASS
-Curiosity Test........... PASS
-Vision Test.............. PASS
+Fact & Consent........... PASS
+Human Gates.............. PASS
+AI / Buzzwords........... PASS
+Sales Tone............... PASS
 Personalization.......... PASS
-Word Count............... PASS
+One Idea................. PASS
+CTA...................... PASS
+Readability.............. PASS
+Length................... PASS
+Em Dashes................ PASS
+Final Send Test.......... PASS
 
-Overall: 9/10
+Overall: PASS
+
+Failures:
+None.
 
 Reason for failure:
 The phrase "strategic opportunity" makes the email sound like a pitch. Rewrite without that phrase.
