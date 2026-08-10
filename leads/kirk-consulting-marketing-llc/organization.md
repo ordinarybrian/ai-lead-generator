@@ -1,0 +1,53 @@
+# Kirk Consulting & Marketing LLC
+
+## Organization
+
+- Organization: Kirk Consulting & Marketing LLC
+- Website: https://kirkconsultingmarketing.com/
+- Organization type: Solo web design and digital marketing consultancy.
+- Based in Sandpoint, ID, 83864. Phone (208) 351-0148 seen consistently across search-indexed listings.
+- Founded/launched per the business's own "About" page content (as surfaced through search-engine indexing — see caution below): Zachary Kirk launched the LLC in October 2024 and became "fully self-employed" (i.e., this became his sole occupation) by May 2025. This is a very young business, well under two years old as of this research (2026-08-10).
+- No BBB profile found under this name (only an unrelated Florida travel agency, "KIRK Marketing & Consultation, Inc.," and an unrelated Michigan planning-consultant firm, "Sandpoint Consulting" — see naming-conflict cautions below).
+
+## IMPORTANT — direct site fetch blocked
+
+Every direct fetch attempt against kirkconsultingmarketing.com (homepage, /about/, /contact/, /contact-me/, /web-design/, and via a text-extraction proxy) returned either an HTTP 403 or a bot-verification/CAPTCHA challenge page ("This website uses a security service to protect against malicious bots..."). **No page on this domain was successfully fetched directly in this research pass.** Everything below sourced to the company's own site is therefore from search-engine-indexed snippets/AI summaries of that content, not a direct, independently-rendered page view. The same specific facts (e.g., the $50/month maintenance figure, the CompTIA Tech Career Academy detail, the October 2024 launch date) recurred consistently and verbatim-adjacent across multiple independent search queries, which is consistent with genuine indexed page text rather than a fabrication — but per this project's sourcing rules, treat all of it as **unconfirmed by direct fetch** until someone visits the live site in a browser.
+
+## Services and positioning
+
+- Core services (per site-indexed search snippets): custom website design ("strategic, visually engaging websites"), responsive/mobile-optimized design, website maintenance & updates, digital marketing services, and SEO. Also mentioned: Google Business Profile optimization and "web & marketing consulting."
+- Specializes in WordPress: "custom-built WordPress sites that are hand-coded, lightweight, and designed to reflect your brand, not a template," with "AI-assisted design & development capabilities." Builds service-business sites, booking platforms, e-commerce, and restaurant ordering systems.
+- One search summary described the client base as "locally in Sandpoint and nationwide"; a separate summary said "serves clients worldwide." Both are search-engine paraphrases of the same underlying site copy, not a direct quote — treat the exact scope language as unconfirmed, but the general shape (local Sandpoint base, plus some remote/out-of-area clients) is consistent across sources.
+- Confirmed local portfolio work: built the website for the Sandpoint Downtown Shopping District / Downtown Sandpoint Business Association (sandpointdowntownshopping.com) — directly confirmed by fetching that site, which credits "Designed by Kirk Consulting & Marketing LLC" in its footer and features a dedicated "Web Designer" callout linking to Kirk Consulting & Marketing (retrieved 2026-08-10). Other portfolio pieces referenced via search snippets only: Paneah's Bistro (a Sandpoint coffee shop, with an online ordering system), NuTech Heating and Cooling (a construction/HVAC site), and "Sandpoint & Bonner's Ferry Best Lifestyle" (a community magazine site).
+
+## Hosting and maintenance — critical fit finding
+
+- **Kirk Consulting & Marketing does not appear to run its own hosting infrastructure**, but it does have an existing, named hosting-referral relationship, and it does sell its own maintenance retainer:
+  - Per multiple independent search-engine summaries of the site's own content (not a direct fetch — see caution above): Kirk Consulting & Marketing offers a **$50/month website maintenance plan** that includes "software updates, security monitoring, and one hour of basic content changes each month."
+  - The same search results consistently describe a **named partnership with "Peace Harbor Hosting"**: clients purchase hosting and a domain directly through Peace Harbor Hosting (hosting.peaceharbor.com, part of Peace Harbor Companies, a Sandpoint web/hosting/print/IT shop operating since 2003), while Kirk Consulting & Marketing handles the website build and its own maintenance retainer on top.
+  - **Notable overlap**: Peace Harbor also operates a competing web-design brand, Peace Harbor Web (web.peaceharbor.com), which is itself a separate row already in `leads/lead-index.csv` ("Peace Harbor Web," priority C, unreviewed). Peace Harbor Companies is therefore both (a) Kirk's existing hosting referral partner and (b) a company that offers the same web-design services Kirk offers, and is itself a hosting company — i.e., a plausible **competitor** to Inland Elite Hosting for the hosting-referral relationship, not just a neutral utility vendor.
+  - This was not independently confirmed by directly viewing the live maintenance/pricing page (site fetch blocked throughout); it is snippet/index-derived and should be re-verified by manually loading kirkconsultingmarketing.com in a browser before it's relied on for outreach messaging.
+
+## Naming-conflict cautions — do not conflate
+
+Several unrelated businesses and people share "Kirk" + "Consulting"/"Marketing" naming and surfaced repeatedly in search results. None of the following should be used as a source of fact for this lead:
+
+- **KIRK Marketing & Consultation, Inc.** — Edgewater, FL; a BBB-listed travel agency. Unrelated.
+- **Kirk Consulting, A California Corporation** — Atascadero, CA; listed in the Atascadero Chamber of Commerce directory. Unrelated.
+- **Kirk Consulting, LLC** (note: no "& Marketing" in the name) — has its own LinkedIn company page (https://www.linkedin.com/company/kirk-consulting-llc), surfaced in search results alongside Zachary Kirk's profile but with no confirmed Sandpoint/Idaho tie found. **Not confirmed to be the same entity as Kirk Consulting & Marketing LLC** — do not treat this as this lead's company LinkedIn page without further verification.
+- Several other similarly-named LinkedIn/company entities also appeared and are unrelated: Kirk & Co. Consulting Ltd. (Canada), KIRK CONSULTING INC., AM Kirk Consulting (UK), Kirk & Company (real estate counselors), Kirk & Co., "Kirk's Consulting Group" (Facebook page), "Kirk Marketing Solutions, LLC" (per LeadIQ), and "Kirk Marketing" (per ZoomInfo).
+- **Sandpoint Marketing LLC / sandpointmarketing.com** — a confusingly similar name (same city, overlapping "marketing" naming) but a **completely different, unrelated business**, owned/run by Chris Bassett (CEO, previously Lead Pastor at Harvest Valley Worship Center), reachable at chris@sandpointmarketing.com per its own ZoomInfo listing. Do not confuse with Kirk Consulting & Marketing LLC.
+- Multiple unrelated "Zachary Kirk" / "Zach Kirk" / "Kirk Zachary" LinkedIn profiles surfaced in search: a Steam Turbine Field Engineer at GE, a US Army-affiliated "Zachary (Zach) Kirk," an "LMS/GS09"-titled Zachary Kirk, an IT-pro-titled "Kirk Zachary," and a "Zach Kirk — Kirk Branding" profile. None of these match the confirmed target profile at https://www.linkedin.com/in/zachary-kirk-consulting-marketing/, whose slug and search-snippet headline ("Zachary Kirk - Kirk Consulting & Marketing LLC") match this lead. See `people/zachary-kirk.md`.
+- RocketReach/ZoomInfo searches for "Zachary Kirk" email addresses surfaced several unrelated people by that name (a "Z.S.P. CEO," an "E. V. Bishoff Company Account Executive," a "Hallmark Campus Communities Development Director," a "RightWorks Quality Assurance Specialist") — none tied to Sandpoint or web design/marketing. No usable aggregator email was found for this lead's Zachary Kirk specifically.
+
+## Why this is a plausible fit (with a caveat)
+
+- Matches PROJECT.md's "freelance web/graphic designers who build websites" and "independent marketing/SEO consultants" target categories closely: solo Sandpoint-based WordPress specialist with direct client relationships, explicitly serving small/local service businesses.
+- However, unlike the ideal profile ("hosting isn't prominently offered"), Kirk Consulting & Marketing does sell its own $50/month maintenance retainer and has an existing, named hosting-referral relationship with Peace Harbor Hosting — a company that is itself a hosting/web-design competitor. A plain "send us your hosting clients" pitch would be competing against both his own retainer revenue and an existing vendor relationship, not filling an obvious gap. This is a similar situation to Adapt Digital Solutions and Ever Marketing elsewhere in the pipeline (see their `fit_reason` cells) — plausible only as a white-label/backend-infrastructure conversation, or as an alternative option he could offer clients who want something Peace Harbor doesn't provide, not a straightforward referral pitch.
+- Being a very young business (LLC launched October 2024, self-employed since only May 2025) cuts both ways: he may be more open to new vendor relationships since his own vendor/partner stack is still forming, but he may also be more loyal to Peace Harbor as an early, foundational relationship.
+
+## Research status
+
+- Company site: every direct fetch attempt blocked (403 / CAPTCHA) on 2026-08-10 — see caution above. All site-sourced facts here are search-index/snippet-derived only.
+- Third-party sources reviewed 2026-08-10: Yelp (fetch blocked, 403), Facebook (fetch attempted, returned only page title, no content), LinkedIn personal profile (fetch blocked, HTTP 999), LinkedIn company page for "kirk-consulting-llc" (not fetched, relevance unconfirmed), BBB (no matching profile found), Sandpoint Online business directory (fetched directly — no listing found for this business), sandpointdowntownshopping.com (fetched directly — confirms Kirk Consulting & Marketing built/designed that site), Peace Harbor's own hosting.peaceharbor.com/about (fetch blocked, 403).
+- See `sources.md` for the full citation list and `people/zachary-kirk.md` for the individual contact record.
