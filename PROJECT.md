@@ -15,7 +15,7 @@ though your project is probably none of those three exactly.
 One paragraph. What is this project trying to place with someone else — a product, an
 asset, a candidate's labor, a partnership, a donation ask? State it plainly.
 
-> [WHAT YOU'RE OFFERING OR SEEKING]
+> This project is seeking a new full-time day job for Brian Clark, an experienced web developer, designer, and technical lead with a background in agency web development, WordPress, Shopify, Craft CMS, hosting infrastructure, client support, and managing development projects and subcontractors. The goal is to find organizations where this combination of hands-on development, web strategy, hosting knowledge, troubleshooting, and client-facing experience is directly useful, rather than limiting the search to narrowly defined software engineering positions.
 
 <!--
 Example (domain sale): "This project is for selling the domain ExampleAsset.com to an
@@ -35,7 +35,7 @@ lead who could sponsor a pilot."
 What does this project exist to accomplish, and what does "success" look like at the end
 of it — a signed deal, an accepted offer, a scheduled pilot, a grant awarded?
 
-> [PRIMARY GOAL AND DEFINITION OF SUCCESS]
+> The primary goal is to secure a new full-time position that represents a strong fit for Brian's web development, design, technical leadership, and hosting/infrastructure experience. Success means receiving and accepting a job offer for a stable role with appropriate compensation, reasonable work-life balance, and meaningful responsibility. The search should prioritize positions where Brian's existing experience can be applied immediately while still providing room for professional growth.
 
 <!--
 Example (domain sale): "Success is a signed purchase agreement at or above the minimum
@@ -53,7 +53,7 @@ mid-market logistics company within the quarter."
 How should this be framed to a prospect? What's the core idea a recipient should walk
 away with after one read?
 
-> [POSITIONING / PITCH ANGLE]
+> Brian should be positioned as an experienced web professional who bridges the gap between development, design, infrastructure, and client needs. He is not simply a developer who receives tickets and writes code: he has experience owning websites from initial build through deployment, hosting, maintenance, troubleshooting, client training, and ongoing support. His value is particularly strong for organizations that need someone capable of independently managing web projects, communicating comfortably with non-technical stakeholders, solving technical problems across multiple platforms, and taking responsibility for the long-term health of websites after launch.
 
 <!--
 Example (domain sale): "Position the domain as a possible national consumer-facing
@@ -74,10 +74,23 @@ outreach."
 Who counts as a qualified lead for this project? List the categories worth researching,
 roughly in priority order.
 
-> [TARGET CATEGORY 1]
-> [TARGET CATEGORY 2]
-> [TARGET CATEGORY 3]
-> ...
+> 1. Web design, development, and digital marketing agencies — especially small-to-midsize agencies that need a senior developer, development lead, web director, technical lead, or experienced generalist capable of owning client projects.
+
+> 2. Companies with substantial in-house web or ecommerce operations — organizations maintaining their own marketing sites, ecommerce stores, landing pages, integrations, and web infrastructure that need an experienced web developer or web manager.
+
+> 3. SaaS, technology, and web-platform companies — particularly companies whose products intersect with websites, ecommerce, hosting, CMS platforms, digital marketing, or agency workflows and where practical web-industry experience is valuable.
+
+> 4. Ecommerce-focused organizations and Shopify agencies — companies operating or supporting significant Shopify stores that need development, theme customization, integrations, technical troubleshooting, or ecommerce web leadership.
+
+> 5. Hosting, managed WordPress, and web-infrastructure companies — organizations where knowledge of hosting environments, DNS, migrations, server administration, WordPress maintenance, troubleshooting, and customer support complements development experience.
+
+> 6. Larger organizations with dedicated web teams — universities, healthcare organizations, professional services firms, manufacturers, nonprofits, and similar employers with ongoing internal web-development needs.
+
+> 7. Select remote employers outside the immediate region — remote-first or remote-friendly organizations offering positions strongly aligned with the skills above.
+
+Geographically, prioritize opportunities in the Spokane, Washington / Coeur d'Alene, Idaho region or Colorado Springs area for local or hybrid positions. Currently living in the Coeur d'Alene, Idaho area, but open to moving to Colorado Springs for the right opportunities.
+
+Also considering strong remote opportunities elsewhere in the United States.
 
 <!--
 Example (domain sale): consumer platforms in the relevant space; large nonprofits with
@@ -98,10 +111,17 @@ For a typical target organization, who should be contacted first? List roles in 
 order. Note any small-organization exception (e.g., go straight to the CEO when no other
 role exists).
 
-1. [ROLE 1]
-2. [ROLE 2]
-3. [ROLE 3]
-4. ...
+For proactive outreach to an organization rather than an advertised job:
+
+1. Director / Head of Web Development, Development, or Digital
+2. Development Manager / Engineering Manager / Web Manager
+3. CTO / VP of Engineering / VP of Technology
+4. Agency Owner / Managing Director / President
+5. Director / VP of Marketing or Digital Marketing
+6. Internal Recruiter / Talent Acquisition
+7. HR / General hiring contact
+
+For small agencies or companies where there is no dedicated development manager, go directly to the owner, founder, president, or managing director. For an advertised position, identify and prioritize the likely hiring manager over generic HR whenever possible.
 
 <!--
 Example (domain sale): CMO -> Chief Growth Officer -> Chief Digital Officer -> VP
@@ -135,10 +155,13 @@ scoping conversation, not a quote."
 
 ## Outreach Cadence
 
-> Day 0: [INITIAL CONTACT]
-> Day [N]: [FIRST FOLLOW-UP]
-> Day [N]: [SECOND FOLLOW-UP]
-> Day [N]: [FINAL TOUCH OR ALTERNATE-CONTACT OUTREACH]
+> Day 0: Send a short, personalized introductory email explaining why the organization appears relevant, briefly establish Brian's web development/technical background, and ask whether they currently have—or anticipate needing—someone with that skill set. When responding to an advertised opening, apply through the required channel first and use outreach to introduce Brian directly to the likely hiring manager.
+
+> Day 4–5: Send a brief first follow-up referencing the original message. Keep it conversational and add one useful piece of context, such as a particularly relevant area of experience or connection to the company's work.
+
+> Day 10–12: Send a second follow-up. Keep it short, acknowledge that there may not be an immediate opening, and ask whether it would make sense to stay in contact regarding future development needs.
+
+> Day 21: Send a final light follow-up or, when appropriate, contact a different relevant decision-maker within the organization. After this point, mark the lead dormant unless a job opening, company change, or other legitimate reason creates a new outreach opportunity.
 
 <!--
 Example (domain sale): Day 0 initial email; Day 4-5 first follow-up; Day 10-12 second

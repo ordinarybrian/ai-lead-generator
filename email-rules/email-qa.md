@@ -1,6 +1,6 @@
 # EMAIL_QA.md
 
-# Lead-Generation Outreach
+# Employment Outreach
 ## Email Pass / Fail Checklist
 
 Every outbound email must pass every section below.
@@ -28,16 +28,28 @@ files:
 3. Is `last_verified` on the lead row recent enough to trust? If it's stale, re-verify
    the fact before sending — don't ship a draft built on an assumption that the contact
    still holds that title or that company detail is still accurate.
+4. If the draft references an advertised opening, is the posting current, is the role
+   still accepting applications, and does the draft represent its responsibilities
+   accurately?
+5. If no current opening is known, does the draft avoid implying that the organization
+   is hiring?
+6. Is every claim about Brian supported by a user-approved résumé, portfolio, work
+   sample, or experience record? If no authoritative candidate source is available,
+   flag the claim instead of inventing or strengthening it.
+7. Do any statements about location, relocation, remote work, or compensation match the
+   current instructions in `PROJECT.md`?
 
 PASS
 
-`do_not_contact` is not set, and every fact referenced in the draft is current and
-traceable to a source.
+`do_not_contact` is not set, every organization/contact fact is current and traceable,
+every candidate claim is supported, and the draft describes the employment situation
+accurately.
 
 FAIL
 
-`do_not_contact` is `TRUE`, or any referenced fact is stale, unverified, or untraceable.
-Re-verify or rewrite before continuing to the tests below.
+`do_not_contact` is `TRUE`, or any referenced fact, opening, candidate claim, or project
+constraint is stale, unsupported, inaccurate, or untraceable. Re-verify or rewrite
+before continuing to the tests below.
 
 ---
 
@@ -45,12 +57,12 @@ Re-verify or rewrite before continuing to the tests below.
 
 Run the draft against all six Pass/Fail Gates defined in `email-writing-rules.md`, sentence by sentence. Not a skim — check every sentence against every gate.
 
-1. Text-a-Friend Gate
+1. Natural-Email Gate
 2. Reflection-Sentence Gate
 3. Universal-Claim Gate
 4. Rule-of-Three Gate
 5. One-Read Gate
-6. Stranger-at-a-Bar Gate
+6. Professional-Introduction Gate
 
 Full definitions, FAIL examples, and a worked before/after rewrite are in `email-writing-rules.md` under "Pass/Fail Gates" — read them there, don't rely on the one-line summaries above.
 
@@ -86,27 +98,31 @@ FAIL
 
 ---
 
-# Test 4 — Sales Test
+# Test 4 — Generic Application / Self-Promotion Test
 
 Question:
 
-Does this sound like someone trying to sell something?
+Does this sound like a generic cover letter, résumé summary, or exaggerated candidate
+pitch?
 
-See "Never Sound Like Sales" and "Don't Sell" in `email-writing-rules.md`.
+See "Never Sound Like a Generic Job Application" and "Don't Oversell" in
+`email-writing-rules.md`.
 
 PASS
 
-Feels like sharing an idea.
+Feels like a capable person making a specific, supported connection between the
+organization's need and his experience.
 
 FAIL
 
-Feels like a pitch.
+Feels generic, inflated, overly eager, or centered on claims rather than evidence.
 
 ---
 
-# Test 5 — Executive Test
+# Test 5 — Recipient & Skimmability Test
 
-Imagine the recipient opens this between meetings.
+Imagine the actual recipient — hiring manager, agency owner, technical leader, or
+recruiter — opens this between other tasks.
 
 Would they read to the end?
 
@@ -124,37 +140,41 @@ Too much explanation.
 
 ---
 
-# Test 6 — Curiosity Test
+# Test 6 — Relevance & Interest Test
 
 Question:
 
-Does the email create curiosity?
+Does the recipient immediately understand why Brian may be relevant and want to see a
+reply, résumé, portfolio, or next conversation?
 
 PASS
 
-The reader wants to know more.
+The connection is clear, specific, and interesting enough to continue.
 
 FAIL
 
-The email explains everything.
+The email is vague, generic, confusing, or tells Brian's whole career story.
 
 ---
 
-# Test 7 — Vision Test
+# Test 7 — Role-Fit Evidence Test
 
 Question:
 
-Can the recipient imagine what's being offered actually working for them?
+Can the recipient imagine Brian handling one relevant responsibility based on evidence
+in the email?
 
-See "Show, Don't Tell" in `email-writing-rules.md` — a single vivid image passes; a curated list of examples fails Gate 4 instead.
+See "Show, Don't Tell" in `email-writing-rules.md`. Use one supported example; a curated
+list of examples fails Gate 4 instead.
 
 PASS
 
-The email paints a picture.
+The email connects a real need or responsibility to supported experience.
 
 FAIL
 
-The email only talks about the thing itself, not what it enables.
+The email makes broad fit claims, recites skills, or leaves the recipient to infer why
+the experience matters.
 
 ---
 
@@ -198,15 +218,17 @@ Conversation.
 
 Referral.
 
-Thoughts.
+Application review.
+
+Brief call or meeting.
 
 FAIL
 
-Meeting.
+Demanding an interview.
 
-Sale.
+Multiple asks.
 
-Pricing.
+An open-ended request for the recipient's time.
 
 Negotiation.
 
@@ -216,9 +238,14 @@ Negotiation.
 
 Highlight every adjective. See "Don't Stack Adjectives" in `email-writing-rules.md`.
 
-If there are more than about one adjective every two sentences...
+PASS
+
+The adjectives are specific, necessary, and supported.
 
 FAIL
+
+Adjectives are stacked, vague, self-congratulatory, or unsupported. Do not fail a useful
+draft merely because it crosses an arbitrary adjective count.
 
 ---
 
@@ -262,15 +289,15 @@ FAIL
 
 # Test 15 — Word Count
 
-Ideal:
+Ideal for most first-contact employment outreach:
 
-120–220 words
+80–160 words
 
-Maximum:
+Practical maximum:
 
-250
+200 words
 
-Over 250
+Over 200 without a clear reason
 
 FAIL
 
@@ -292,15 +319,18 @@ Rewrite.
 
 # Test 17 — Remove One Sentence
 
-Delete one random sentence.
+Remove each sentence in turn.
 
-Does the email still work?
+If removing a sentence loses no relevant fact, evidence, context, or part of the ask,
+that sentence probably is not needed. Cut it or justify why it remains.
 
-If yes...
+PASS
 
-That sentence wasn't needed.
+Every remaining sentence contributes relevant information or necessary context.
 
-Rewrite.
+FAIL
+
+One or more sentences can be removed with no meaningful loss.
 
 ---
 
@@ -342,15 +372,12 @@ FAIL
 
 # Final Gate
 
-Imagine the recipient is one of this project's actual top prospects.
+Name the actual intended recipient, current title, organization, and outreach mode for
+this draft. Do not substitute a generic persona or a permanent list of top prospects.
 
-**Replace the placeholder names below with this project's current top prospects from
-`leads/lead-index.csv` / `PROJECT.md` before running QA** — the gate only works if you
-picture a real, specific person.
-
-- [PROSPECT 1 NAME], [TITLE] of [ORGANIZATION 1]
-- [PROSPECT 2 NAME], [TITLE] of [ORGANIZATION 2]
-- [PROSPECT 3 NAME], [TITLE] of [ORGANIZATION 3]
+- Recipient: [ACTUAL RECIPIENT NAME]
+- Current title and organization: [TITLE], [ORGANIZATION]
+- Mode: [ADVERTISED OPENING / PROACTIVE OUTREACH / FOLLOW-UP OR REFERRAL]
 
 Would you confidently send this email exactly as written?
 
@@ -368,15 +395,16 @@ Rewrite.
 
 # Final Principle
 
-The email should feel like one intelligent person sharing one interesting idea with another intelligent person.
+The email should feel like one experienced professional starting a useful conversation
+with a possible manager, colleague, owner, or recruiter.
 
 Not marketing.
 
 Not AI.
 
-Not sales.
+Not a mass application.
 
-Just an idea worth considering.
+Just a clear, credible reason to consider a possible fit.
 
 ## Review Overview
 
@@ -384,18 +412,34 @@ Once the review is complete, output the judgement using the following syntax:
 
 EMAIL QA
 
-Fact & Consent Check..... PASS
-Gate Check (Human Test)... PASS
-AI Test................... PASS
-Buzzword Test............ PASS
-Sales Test............... PASS
-Executive Test........... PASS
-Curiosity Test........... PASS
-Vision Test.............. PASS
-Personalization.......... PASS
-Word Count............... PASS
+Recipient / Mode...................... [NAME / MODE]
+Fact & Consent Check.................. PASS
+Gate Check (Human Test)............... PASS
+AI Test............................... PASS
+Corporate Buzzword Test............... PASS
+Generic Application Test.............. PASS
+Recipient & Skimmability Test......... PASS
+Relevance & Interest Test............. PASS
+Role-Fit Evidence Test................ PASS
+Personalization Test.................. PASS
+One Idea Test......................... PASS
+CTA Test.............................. PASS
+Adjective Test........................ PASS
+"Could" Test.......................... PASS
+Reading Level......................... PASS
+Paragraph Test........................ PASS
+Word Count............................ PASS
+Rewrite Test.......................... PASS
+Remove One Sentence Test.............. PASS
+Forward Test.......................... PASS
+Memory Test........................... PASS
+"Why Them?" Test...................... PASS
+Final Gate............................ PASS
 
-Overall: 9/10
+Overall: PASS
 
-Reason for failure:
-The phrase "strategic opportunity" makes the email sound like a pitch. Rewrite without that phrase.
+Required changes:
+None.
+
+If any test fails, set `Overall` to `FAIL`, name the failed test and sentence, and list
+the smallest changes required. Do not use a numeric score: every required test must pass.

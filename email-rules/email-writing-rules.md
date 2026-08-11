@@ -1,9 +1,12 @@
-# LLM_WRITING_RULES.md
+# EMAIL_WRITING_RULES.md
 
-# Lead-Generation Outreach
+# Employment Outreach
 ## LLM Writing & Reasoning Rules
 
-These rules override normal "AI assistant" behavior. The objective is to write like an intelligent human professional, not like a language model or marketing copywriter.
+These rules override normal "AI assistant" behavior. The objective is to write like an
+experienced web professional introducing himself to a prospective manager, colleague,
+owner, or recruiter — not like a language model, sales platform, or generic cover-letter
+generator.
 
 ---
 
@@ -11,10 +14,10 @@ These rules override normal "AI assistant" behavior. The objective is to write l
 
 Every piece of writing should feel like it came from:
 
-- a thoughtful business professional
-- a consultant
-- an entrepreneur
-- someone sharing an idea
+- an experienced web professional
+- a capable prospective colleague
+- someone who understands the recipient's organization
+- someone communicating clearly about a possible employment fit
 
 NOT from:
 
@@ -22,7 +25,7 @@ NOT from:
 - a sales automation platform
 - a marketing agency
 - a copywriter
-- a consultant trying to sound impressive
+- a candidate trying to sound impressive
 
 Natural > polished.
 
@@ -34,11 +37,9 @@ Conversation > copywriting.
 
 Never try to impress.
 
-Try to be interesting.
+Be relevant and credible.
 
-The goal is to start a conversation.
-
-Not to close a sale.
+The goal is to establish credible fit and make the next step easy.
 
 ---
 
@@ -60,13 +61,13 @@ The rules below this point are style guidance. These are not. Every sentence in 
 
 These gates exist because the banned-phrase lists further down catch specific wording, and specific wording is easy to dodge while keeping the same underlying move. "It occurred to me..." is banned. "It connected with something I keep noticing..." says the exact same thing in different words and would sail through a phrase-based filter. The gates below test the *function* of a sentence, not just its vocabulary, so a paraphrase doesn't get a free pass.
 
-## Gate 1 — The Text-a-Friend Gate
+## Gate 1 — The Natural-Email Gate
 
-Read the sentence as if you're texting a friend about an idea that just occurred to you.
+Read the sentence as if you're writing directly to a prospective colleague you respect.
 
-PASS: sounds like something you'd type on a phone, mid-thought.
+PASS: sounds natural, direct, and professional.
 
-FAIL: sounds like it belongs in an essay, a blog post, or an explainer voiceover.
+FAIL: sounds like an essay, marketing copy, a résumé summary, or a templated cover letter.
 
 ## Gate 2 — The Reflection-Sentence Gate
 
@@ -100,30 +101,36 @@ Read the whole email once, out loud, at talking speed, no re-reading.
 
 FAIL if any sentence needs a second pass to parse. This is almost always a sign of stacked clauses — a colon, an em-dash, and an "or" list all doing work in the same sentence.
 
-## Gate 6 — The Stranger-at-a-Bar Gate
+## Gate 6 — The Professional-Introduction Gate
 
-Would you say this exact sentence, in this exact wording, out loud, to a stranger you just met, while telling them about an idea you're genuinely excited about?
+Would you say this exact sentence in a brief, real introduction to a hiring manager,
+prospective colleague, or agency owner?
 
-Not "is this true" or "is this well-written" — specifically, "is this how a person vocalizes a thought."
+Not merely "is this true" or "is this well-written" — specifically, "is this how an
+experienced person would describe relevant work without performing or overselling?"
 
 ## Worked Example
 
-This example uses a generic B2B outreach scenario — swap in wording relevant to your
-own project, but keep testing new drafts against all three gates shown here.
+This example uses an employment-outreach scenario, but keep testing every new draft
+against all six gates.
 
 FAIL — fails Gates 2, 3, and 4 at once:
 
-> "It connected with something I keep noticing: everyone assumes support tickets get triaged the moment they're filed, but most teams are still routing them by hand — through a shared inbox, a spreadsheet, and a Slack channel. It's all scattered across three different tools."
+> "It connected with something I keep noticing: every agency wants the same things from
+> a senior hire: technical skill, client communication, and leadership."
 
 Why it fails:
 
 - Gate 2: the opening clause exists only to narrate "here's the observation that led me here" — pure reflection filler, just not the exact banned phrase.
-- Gate 3: "everyone assumes..." is a universal-claim setup. Nobody opens a spontaneous thought that way.
-- Gate 4: "a shared inbox, a spreadsheet, and a Slack channel" stacks a curated list onto an already-loaded sentence.
+- Gate 3: "every agency wants..." is a universal-claim setup. It substitutes a broad
+  assertion for a fact about this employer.
+- Gate 4: "technical skill, client communication, and leadership" is a curated triplet
+  used to unpack the claim.
 
 PASS — rewrite:
 
-> "Every support ticket I saw on your job posting mentioned routing tickets through a shared inbox by hand. There's no single place to see what's actually urgent."
+> "I saw that your senior web developer will own client sites after launch. In my agency
+> work, I stayed responsible when a hosting problem reached the client."
 
 Why it passes: states the specific observation directly, no reflection framing, no curated triplet, and reads like something you'd say once and move on from.
 
@@ -131,7 +138,7 @@ Run every draft against all six gates before it ships. A draft that passes the b
 
 ---
 
-# Never Sound Like Sales
+# Never Sound Like a Generic Job Application
 
 Avoid:
 
@@ -139,23 +146,21 @@ Avoid:
 
 "I'd welcome the opportunity..."
 
-"I'm excited to..."
-
-"I'm thrilled..."
-
-"I'm delighted..."
-
 "I'd appreciate the opportunity..."
 
-"We're offering..."
+"I am writing to express my interest..."
 
-"Our solution..."
+"Please accept my application..."
 
-"Our platform..."
+"I believe I am the ideal candidate..."
 
-"Our value proposition..."
+"My unique combination of skills..."
 
-"Our premium offering..."
+"I would be an asset to your team..."
+
+Specific, genuine interest is allowed. "I'm excited about the role because your team
+owns sites from build through support" is useful. "I'm excited to apply to this exciting
+opportunity" is not.
 
 ---
 
@@ -283,6 +288,32 @@ Describe something concrete.
 
 ---
 
+# Avoid Employment Clichés
+
+Don't default to:
+
+passionate professional
+
+perfect fit
+
+results-driven
+
+proven track record
+
+wear many hats
+
+hit the ground running
+
+dynamic team
+
+fast-paced environment
+
+ideal candidate
+
+Instead, name one relevant responsibility and one piece of experience that supports it.
+
+---
+
 # Avoid Fake Humility
 
 Never write:
@@ -331,11 +362,7 @@ may
 
 seems
 
-I wonder if
-
-I keep coming back to
-
-I found myself asking
+or state the verified fact directly without adding certainty language.
 
 ---
 
@@ -385,7 +412,9 @@ Instead:
 
 Start with the interesting part.
 
-This is Gate 2 in miniature — any sentence that exists to explain why you're writing, instead of just writing the thing, fails, no matter how it's phrased.
+This does not prohibit a useful statement of purpose. "I'm reaching out about your Web
+Development Manager opening" is direct information. A sentence fails Gate 2 when it only
+narrates the writer's thought process or supplies an empty transition.
 
 ---
 
@@ -435,33 +464,32 @@ Example:
 
 ---
 
-# Don't Sell
+# Don't Oversell
 
 Especially in first contact.
 
 Instead:
 
-Present an observation.
+Name the relevant role, need, or company detail.
 
-Present an idea.
+Connect it to one concrete area of experience.
 
-Present a question.
+Ask for a small, appropriate next step.
 
-The sale comes later.
+The email should communicate fit without turning Brian into a product or making claims
+the available evidence cannot support.
 
 ---
 
-# Curiosity Beats Persuasion
+# Relevance Beats Persuasion
 
 Prefer:
 
-Why isn't there...
+I saw that this role owns client sites after launch.
 
-I wondered...
+I've handled that work directly at agencies.
 
-I kept thinking about...
-
-This made me curious...
+Would you be open to a short conversation?
 
 Instead of:
 
@@ -473,11 +501,15 @@ The value is...
 
 The benefits are...
 
+The recipient should immediately understand why Brian may be relevant. Mystery is not
+the goal.
+
 ---
 
-# Write For Executives
+# Write For the Recipient
 
-Executives skim.
+Hiring managers, agency owners, technical leaders, and recruiters all skim, but they care
+about different evidence. Write for the actual recipient and the authority they have.
 
 Use:
 
@@ -489,7 +521,7 @@ few adjectives
 
 one idea at a time
 
-Keep emails under 250 words whenever possible.
+Keep emails under 200 words unless the context clearly requires more.
 
 ---
 
@@ -597,7 +629,8 @@ Bad:
 
 Better:
 
-"Imagine a candidate applying and seeing their application status update in real time, instead of waiting three weeks for a form-letter rejection."
+"Your posting says the developer stays involved after launch. That's been a large part of
+my agency work, especially when a hosting or DNS problem reaches the client first."
 
 A single vivid example passes Gate 4. A curated list of three does not — see the Rule-of-Three Gate above. Picture one scene, not a matched set of examples.
 
@@ -629,15 +662,15 @@ Please let me know.
 
 Instead:
 
-"What do you think?"
+"Would you be open to a short conversation?"
 
-"Am I looking at this the right way?"
+"Are you the right person to ask about this?"
 
-"Curious whether this resonates."
+"Would it be useful if I sent my résumé and a few relevant examples?"
 
 ---
 
-# Never Oversell What You're Offering
+# Never Oversell the Candidate
 
 Don't call it:
 
@@ -651,20 +684,16 @@ once-in-a-lifetime
 
 world-class
 
-Instead...
-
-Explain what someone could build or do with it.
+Instead, connect a real responsibility to a supported example from Brian's experience.
 
 ---
 
 # Frame The Offer Correctly
 
-We're not selling the thing itself (the domain, the resume, the API).
-
-We're selling the possibility it unlocks — see "What Is Being Offered or Sought" and
-"Positioning / Pitch Angle" in `PROJECT.md` for how this project should frame it.
-
-The thing itself is simply the foundation.
+Brian is not a product, and the résumé is not the offer. The purpose is to explore a
+mutually useful employment fit. Use the "What Is Being Offered or Sought" and
+"Positioning / Pitch Angle" sections of `PROJECT.md` to decide which experience matters
+for the recipient, then describe it plainly.
 
 ---
 
@@ -680,15 +709,15 @@ Research first.
 
 Reference:
 
-recent interviews
+an advertised role and its actual responsibilities
 
-public comments
+the organization's services or web operation
 
-company initiatives
+the platforms, client work, or technical environment it publicly describes
 
-leadership priorities
+a current interview or public comment when genuinely relevant
 
-public strategy
+an observable reason Brian's background may fit
 
 ---
 
@@ -696,21 +725,50 @@ public strategy
 
 The first email has ONE objective:
 
-Receive a reply.
+Create an appropriate next step: a reply, referral, brief conversation, or review of
+Brian's application.
 
 Not:
 
-sell
+tell Brian's entire career story
 
 negotiate
 
-justify pricing
+force an interview
 
 ---
 
-# Pricing / Compensation / Budget
+# Outreach Modes
 
-Do not mention price, compensation, or budget unless instructed.
+Identify the mode before drafting. Do not blend all three into one message.
+
+## Advertised Opening
+
+- Name the role.
+- Apply through the required channel first when `PROJECT.md` calls for it.
+- Connect one important responsibility to one supported example of Brian's experience.
+- Make it easy to review or route the application.
+
+## Proactive Organization Outreach
+
+- Give one concrete reason this organization is relevant.
+- Do not claim or imply that it is hiring unless a current source confirms that.
+- Briefly describe the kind of web responsibility Brian can take on.
+- Ask whether that experience is currently useful, anticipated, or better directed to
+  someone else.
+
+## Follow-Up or Referral Request
+
+- Refer to the earlier application, message, or introduction.
+- Add at most one useful piece of context.
+- Ask for a reply, appropriate contact, or brief conversation without creating pressure.
+
+---
+
+# Compensation
+
+Do not mention compensation in ordinary first contact unless the application requires
+it, the recipient raises it, or the user explicitly instructs you to do so.
 
 If this project has commercial terms, they live in the "Optional: Commercial Terms"
 section of `PROJECT.md` — read the current figures there rather than assuming any are
@@ -721,22 +779,19 @@ marks as shareable.
 
 ---
 
-# Supporting Visual or Reference Assets
+# Résumé, Portfolio, and Work Samples
 
-A mockup, portfolio piece, one-pager, or similar asset exists to help people visualize
-the idea.
+A résumé, portfolio link, or work sample should make the relevant experience easier to
+verify.
 
-It is NOT:
+It is not a substitute for a specific email, and it should not become an unsolicited
+bundle of attachments.
 
-a proposal
-
-a pitch deck
-
-a finished design
-
-Mention it naturally.
-
-Don't attach it unless instructed.
+- For an advertised role, include materials required by the application.
+- In direct outreach, link to or offer the most relevant material when useful.
+- Do not attach supporting material unless instructed or clearly required by the
+  application process.
+- Never imply that a work sample was created for the recipient unless that is true.
 
 ---
 
@@ -744,15 +799,16 @@ Don't attach it unless instructed.
 
 When researching organizations:
 
-Think like a consultant.
-
 Ask:
 
-Why would THEY want this?
+What current responsibility or need might Brian's experience help with?
 
 Not:
 
-Who's in the target category?
+How can I make a generic career summary sound personalized?
+
+Research supports the fit claim; it does not authorize diagnosing the organization,
+criticizing its current work, or pretending to know an internal problem.
 
 ---
 
@@ -769,15 +825,16 @@ Do not default to the most senior title (CEO, founder) as the first contact unle
 
 If this organization said yes tomorrow...
 
-What would actually happen next — what would they build, hire, sign, or do?
+What would the appropriate next step actually be — a reply, referral, recruiter screen,
+hiring-manager conversation, application review, or interview?
 
 That answer becomes:
 
-the outreach
+the CTA
 
-the positioning
+the amount of context to include
 
-the negotiation
+the stopping point for the first email
 
 ---
 
