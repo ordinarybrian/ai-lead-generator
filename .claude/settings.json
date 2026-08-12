@@ -20,7 +20,11 @@
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
       "Bash(cd \"/Users/admin/Documents/AI Projects/leadgen-inlandelite\" && cp leads/lead-index.csv leads/lead-index.csv.bak)",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -m py_compile scripts/clickup_sync.py)",
+      "Bash(python3 scripts/clickup_sync.py --help)",
+      "Bash(claude mcp *)",
+      "Bash(git check-ignore *)"
     ],
     "additionalDirectories": [
       "/Users/admin/Documents/AI Projects/leadgen-inlandelite/leads"

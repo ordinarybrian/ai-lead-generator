@@ -37,6 +37,8 @@ This template is deliberately generic. Example use cases:
 | `email-rules/` | The writing rules (Pass/Fail Gates, banned-phrase lists) and the QA checklist every draft must pass. Domain-agnostic; rarely needs editing. |
 | `examples/sample-domain-brokerage/` | A fully worked reference example — a real, populated instance of this framework from the project it was built for. |
 | `.claude/` | Claude Code permission settings. Already generic; no changes needed. |
+| `scripts/clickup_sync.py` | Optional: syncs `leads/lead-index.csv` into a ClickUp List, one task per organization. Idempotent, dry-run supported. See its module docstring and `leads/README.md`. |
+| `.env.example` | Template for `scripts/clickup_sync.py`'s credentials. Copy to `.env` (gitignored) and fill in. |
 
 ## Getting started
 
@@ -63,6 +65,22 @@ This template is deliberately generic. Example use cases:
 6. Look at `examples/sample-domain-brokerage/` for a fully worked reference showing what
    a populated project looks like end to end, from a researched lead through a QA'd
    outreach draft.
+7. **(Optional) Connect ClickUp**, if you want the pipeline mirrored into a ClickUp List
+   instead of (or alongside) the CSV:
+   - **Conversational task management** — register ClickUp's MCP server so Claude Code
+     can create/update individual tasks, comments, etc. directly:
+     `claude mcp add --transport http clickup https://mcp.clickup.com/mcp -s local`
+     (use `-s project` instead if you want the registration committed and shared via
+     `.mcp.json`), then run `/mcp` to complete OAuth login. Registration is scoped to
+     this project directory — a different project needs its own `claude mcp add`, and
+     each ClickUp account you connect needs its own OAuth login.
+   - **Bulk CSV sync** — for keeping a whole ClickUp List in sync with
+     `leads/lead-index.csv` (idempotent, dry-run supported), use
+     `scripts/clickup_sync.py` instead: copy `.env.example` to `.env`, fill in
+     `CLICKUP_API_TOKEN` and `CLICKUP_LIST_ID`, then run
+     `python3 scripts/clickup_sync.py --dry-run` to preview. See the script's module
+     docstring and `leads/README.md` for the setup ClickUp needs (matching custom
+     fields and statuses) and which CSV columns are special-cased.
 
 ## How the agent workflow works
 
