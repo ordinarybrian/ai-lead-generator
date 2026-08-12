@@ -15,7 +15,7 @@ though your project is probably none of those three exactly.
 One paragraph. What is this project trying to place with someone else — a product, an
 asset, a candidate's labor, a partnership, a donation ask? State it plainly.
 
-> [WHAT YOU'RE OFFERING OR SEEKING]
+> Blackbird Digital is seeking to connect with established small and growing businesses that need stronger marketing, branding, or digital infrastructure but may not have the resources, expertise, or need for a full in-house marketing department. Blackbird offers flexible access to web design and development, branding and graphic design, SEO, Google Ads/PPC, social media management, email and SMS marketing, media production, and overall marketing strategy, allowing businesses to work with one local partner across multiple parts of their marketing.
 
 <!--
 Example (domain sale): "This project is for selling the domain ExampleAsset.com to an
@@ -35,7 +35,7 @@ lead who could sponsor a pilot."
 What does this project exist to accomplish, and what does "success" look like at the end
 of it — a signed deal, an accepted offer, a scheduled pilot, a grant awarded?
 
-> [PRIMARY GOAL AND DEFINITION OF SUCCESS]
+> The primary goal is to generate qualified sales conversations with business owners and marketing decision-makers who have a legitimate need for Blackbird's services. Success is a prospect responding positively and scheduling an introductory consultation or discovery meeting where Blackbird can identify the company's marketing challenges, determine whether there is a good fit, and develop an appropriate recommendation or proposal. The campaign should prioritize quality conversations and potential long-term client relationships over sheer lead volume.
 
 <!--
 Example (domain sale): "Success is a signed purchase agreement at or above the minimum
@@ -53,7 +53,7 @@ mid-market logistics company within the quarter."
 How should this be framed to a prospect? What's the core idea a recipient should walk
 away with after one read?
 
-> [POSITIONING / PITCH ANGLE]
+> Blackbird should be positioned as the marketing partner for growing businesses that need more capability without building an entire internal marketing department. Rather than approaching prospects with a generic "we do digital marketing" pitch, outreach should identify a specific opportunity or weakness in the prospect's current marketing and introduce Blackbird as a local, experienced team capable of connecting the pieces—strategy, website, advertising, SEO, branding, content, and creative—rather than treating each channel independently. Blackbird's existing positioning emphasizes this integrated approach across marketing channels.
 
 <!--
 Example (domain sale): "Position the domain as a possible national consumer-facing
@@ -74,10 +74,29 @@ outreach."
 Who counts as a qualified lead for this project? List the categories worth researching,
 roughly in priority order.
 
-> [TARGET CATEGORY 1]
-> [TARGET CATEGORY 2]
-> [TARGET CATEGORY 3]
-> ...
+> Home Services, Trades & Construction
+HVAC, plumbing, electrical, roofing, restoration, landscaping, remodeling, builders, contractors, excavation, property services, and similar businesses.
+
+> Professional Services
+Law firms, accounting firms, financial services, insurance agencies, real estate companies, property management firms, engineering firms, consultants, and other professional practices.
+
+> Healthcare, Wellness & Specialty Practices
+Chiropractic, dentistry, optometry, physical therapy, med spas, private medical practices, wellness businesses, fitness facilities, and similar owner-operated practices.
+
+> Hospitality, Food & Tourism
+Restaurants, coffee shops, breweries, hotels, vacation-rental companies, attractions, recreation companies, event venues, and tourism-oriented businesses.
+
+> Retail & E-Commerce Businesses
+Established local retailers, specialty stores, manufacturers with direct-to-consumer sales, Shopify businesses, and companies attempting to grow online sales. Blackbird specifically promotes Shopify and broader e-commerce development capabilities.
+
+> B2B & Industrial Businesses
+Manufacturers, distributors, commercial contractors, equipment companies, technical services, and established B2B companies whose marketing has historically relied heavily on referrals or sales relationships.
+
+> Nonprofits & Community Organizations
+Established organizations with ongoing fundraising, awareness, recruitment, event, website, or communications needs.
+
+> Geographic priority
+Coeur d'Alene, Post Falls, Hayden, Rathdrum, Spokane/Spokane Valley, and the broader Inland Northwest should be the strongest initial territory, while particularly strong prospects outside the immediate region should not automatically be excluded. Blackbird currently identifies itself as a Coeur d'Alene-founded company with its office in Post Falls and specifically emphasizes working with small businesses.
 
 <!--
 Example (domain sale): consumer platforms in the relevant space; large nonprofits with
@@ -98,10 +117,16 @@ For a typical target organization, who should be contacted first? List roles in 
 order. Note any small-organization exception (e.g., go straight to the CEO when no other
 role exists).
 
-1. [ROLE 1]
-2. [ROLE 2]
-3. [ROLE 3]
-4. ...
+1. Owner / Founder / President / CEO
+2. Marketing Director / Marketing Manager
+3. General Manager / Director of Operations
+4. Business Development Director / Sales Director
+5. Communications / Community Relations / Brand Manager
+6. Office Manager / Administrative Manager — primarily when no other decision-maker can be identified
+
+Exception: For organizations with an established internal marketing department, contact the Marketing Director, VP of Marketing, or equivalent marketing decision-maker first rather than immediately approaching the owner or CEO.
+
+For very small businesses, skip the hierarchy and go directly to the owner.
 
 <!--
 Example (domain sale): CMO -> Chief Growth Officer -> Chief Digital Officer -> VP
@@ -135,10 +160,17 @@ scoping conversation, not a quote."
 
 ## Outreach Cadence
 
-> Day 0: [INITIAL CONTACT]
-> Day [N]: [FIRST FOLLOW-UP]
-> Day [N]: [SECOND FOLLOW-UP]
-> Day [N]: [FINAL TOUCH OR ALTERNATE-CONTACT OUTREACH]
+Day 0: Initial Contact
+Send a short, personalized email based on something observable about the company, its website, advertising, search presence, brand, or overall marketing. Introduce Blackbird briefly and connect the identified opportunity to a relevant capability. Use a low-pressure CTA asking whether they would be open to a short conversation.
+
+Day 3: First Follow-Up
+Send a concise follow-up that adds something useful rather than simply asking whether they saw the first email. Mention one additional observation, opportunity, or idea relevant to their business and ask whether improving that area is currently a priority.
+
+Day 7: Second Follow-Up
+Approach from a different angle. Reference a related Blackbird capability, relevant type of client work, or broader business outcome. Reinforce that Blackbird can address multiple marketing needs through one team rather than requiring several disconnected vendors.
+
+Day 14: Final Touch / Alternate-Contact Outreach
+Send a brief final email acknowledging that the timing may not be right and leaving the door open for a future conversation. For high-value accounts, begin outreach to the next appropriate decision-maker at the organization rather than continuing to repeatedly contact the same person.
 
 <!--
 Example (domain sale): Day 0 initial email; Day 4-5 first follow-up; Day 10-12 second

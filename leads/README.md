@@ -36,25 +36,31 @@ string literal(s) in the script — see its module docstring and `NATIVE_COLUMNS
 
 ## Column reference
 
-| Column | Purpose |
-|---|---|
-| `organization` | Organization (or role/target) name. |
-| `website` | Primary URL. |
-| `primary_contact` | Name of the first-choice contact, per `PROJECT.md`'s priority order. |
-| `contact_title` | Their title, as currently verified. |
-| `linkedin_url` | Contact's LinkedIn profile, if found. |
-| `email` | Contact's email address, if any is known or guessed. |
-| `email_confidence` | How sure you are the address is real: `verified` \| `possible` \| `pattern-based` \| `unverified`. Never mark `verified` without evidence. |
-| `email_delivery_status` | What's actually happened when it's been used: blank (not sent yet) \| `sent - no bounce` \| `bounced` \| `confirmed valid` \| `replied`. Kept separate from `email_confidence` — a guess can be confirmed by a clean send, and a "verified" address can still bounce. |
-| `backup_contact` | An alternate contact at the same organization, in `Name -- Title` format. Leave blank if none identified. |
-| `last_verified` | ISO date (`YYYY-MM-DD`) the contact's title/employment was last checked. Titles and jobs change — re-check before outreach if this is stale. |
-| `do_not_contact` | Leave blank normally. Set to `TRUE` if this lead should never be contacted again (explicit opt-out, bounced permanently, etc.). Always check this before drafting or sending. |
-| `priority` | This project's priority tier (e.g. `A+`, `A`, `B`, `C`). |
-| `outreach_status` | Pipeline stage (e.g. `Researching`, `Ready for Outreach`, `Initial Email Sent`, `Follow-up 1 Sent`, `Replied`, `No Response`, `Closed Won`, `Closed Lost`). |
-| `last_contact_date` | ISO date of the most recent actual contact attempt. |
-| `next_action` | Free-text description of what to do next. |
-| `next_action_date` | ISO date the next action is due — kept separate from `next_action` so due/overdue items can be sorted or queried instead of parsed out of prose. |
-| `notes` | Anything else worth recording. |
+The "ClickUp field type" column is what to pick when creating each column's matching
+Custom Field in ClickUp (see "Adapting the CSV schema" above). Columns marked *native*
+map to a built-in ClickUp task property instead of a custom field — see
+`clickup_sync.py`'s `NATIVE_COLUMNS` and its special-cased handling of `priority` and
+`notes` — so no custom field should be created for them.
+
+| Column | Purpose | ClickUp field type |
+|---|---|---|
+| `organization` | Organization (or role/target) name. | *native — task name* |
+| `website` | Primary URL. | `url` |
+| `primary_contact` | Name of the first-choice contact, per `PROJECT.md`'s priority order. | `text` |
+| `contact_title` | Their title, as currently verified. | `text` |
+| `contact_phone` | Contact's phone number, if found. | `phone` |
+| `email` | Contact's email address, if any is known or guessed. | `email` |
+| `email_confidence` | How sure you are the address is real: `verified` \| `possible` \| `pattern-based` \| `unverified`. Never mark `verified` without evidence. | `drop_down` (options: `verified`, `possible`, `pattern-based`, `unverified`) |
+| `email_delivery_status` | What's actually happened when it's been used: blank (not sent yet) \| `sent - no bounce` \| `bounced` \| `confirmed valid` \| `replied`. Kept separate from `email_confidence` — a guess can be confirmed by a clean send, and a "verified" address can still bounce. | `drop_down` (options: `sent - no bounce`, `bounced`, `confirmed valid`, `replied`) |
+| `backup_contact` | An alternate contact at the same organization, in `Name -- Title` format. Leave blank if none identified. | `text` |
+| `last_verified` | ISO date (`YYYY-MM-DD`) the contact's title/employment was last checked. Titles and jobs change — re-check before outreach if this is stale. | `date` |
+| `do_not_contact` | Leave blank normally. Set to `TRUE` if this lead should never be contacted again (explicit opt-out, bounced permanently, etc.). Always check this before drafting or sending. | `checkbox` |
+| `priority` | This project's priority tier (e.g. `A+`, `A`, `B`, `C`). | *native — task priority, via `PRIORITY_MAP`* |
+| `outreach_status` | Pipeline stage (e.g. `Researching`, `Ready for Outreach`, `Initial Email Sent`, `Follow-up 1 Sent`, `Replied`, `No Response`, `Closed Won`, `Closed Lost`). | *native — task status; add matching List statuses* |
+| `last_contact_date` | ISO date of the most recent actual contact attempt. | `date` |
+| `next_action` | Free-text description of what to do next. | `text` |
+| `next_action_date` | ISO date the next action is due — kept separate from `next_action` so due/overdue items can be sorted or queried instead of parsed out of prose. | *native — task due date* |
+| `notes` | Anything else worth recording. | *native — task description* |
 
 ## CSV hygiene rules
 
