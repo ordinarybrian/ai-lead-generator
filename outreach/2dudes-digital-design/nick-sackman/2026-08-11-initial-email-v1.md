@@ -15,9 +15,6 @@ If it's ever more than you want to keep managing directly, white-label is someth
 
 What does your setup look like right now?
 
-Brian Clark
-Inland Elite Hosting
-
 ---
 
 ## QA result

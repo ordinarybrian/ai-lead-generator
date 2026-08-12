@@ -186,7 +186,13 @@ actual top prospects, so the QA step imagines the real recipients.
 
 ## Working Style
 
-- Brian is based in Hayden, ID, and services North Idaho (Coeur d'Alene, Post Falls, Sandpoint, Hayden) and the Spokane area broadly. Don't state a specific home city (e.g. "I'm in Post Falls") in outreach. Use general regional language instead ("North Idaho," "the Spokane/Coeur d'Alene area").
+- Brian is based in Hayden, ID, and services North Idaho (Coeur d'Alene, Post Falls, Sandpoint, Hayden) and the Spokane area broadly. **Location personalization in outreach is keyed to the recipient's own city** (set 2026-08-12), not a fixed regional phrase used for everyone:
+  - Recipient in **Sandpoint** — mention that's where Brian grew up.
+  - Recipient in **Sagle** — mention Brian visits family there often.
+  - Recipient in **CDA** (always abbreviate "Coeur d'Alene" to "CDA" in outreach), **Post Falls**, or **Hayden** — mention Brian runs the business out of Hayden.
+  - Recipient in **Spokane** — mention Brian runs the business out of North Idaho (general regional phrase, not "Hayden" specifically).
+  - Recipient anywhere else — don't mention where the business is run at all.
+  - Only state one of these per email, matched to that recipient's actual city; don't stack multiple location claims. (The email already sent to Zachary Kirk in Sandpoint combines the "grew up in Sandpoint" and "run the business out of Hayden" lines — that predates this rule and wasn't corrected after the fact since it was already sent; new drafts should follow the single-claim version above.)
 - Make the smallest well-supported change needed and summarize what changed.
 - Ask before sending outreach, publishing content, changing live systems, disclosing
   confidential information, or materially changing pricing/compensation/negotiation

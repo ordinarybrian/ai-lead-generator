@@ -15,9 +15,6 @@ I run Inland Elite Hosting, managed WordPress hosting and the server-side work t
 
 Curious how you handle that gap now, if it comes up at all.
 
-Brian Clark
-Inland Elite Hosting
-
 ---
 
 ## QA result

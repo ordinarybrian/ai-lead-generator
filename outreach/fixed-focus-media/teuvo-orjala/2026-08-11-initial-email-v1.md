@@ -1,6 +1,6 @@
 # Teuvo Orjala, initial email v1 (2026-08-11)
 
-Status: Drafted, not sent. Brian confirmed Teuvo's email directly on 2026-08-11 and said this lead is worth reaching out to. Angle follows email-writing-rules.md's guidance for a small creative/branding studio: focus on what happens after a website launches, where Inland Elite can complement the studio's existing photography/video work rather than compete with it.
+Status: Drafted, not sent. Brian confirmed Teuvo's email directly on 2026-08-11 and said this lead is worth reaching out to. Angle follows email-writing-rules.md's guidance for a small creative/branding studio: focus on what happens after a website launches, where Inland Elite can complement the studio's existing photography/video work rather than compete with it. Updated 2026-08-12: location line changed from "here in North Idaho" to "out of Hayden" per PROJECT.md's new per-city location rule (Fixed Focus Media is CDA-based, so this recipient gets the Hayden line, not the generic regional phrase).
 
 ---
 
@@ -11,12 +11,9 @@ Hi Teuvo,
 
 I came across Fixed Focus Media's work mixing web design with photography and video.
 
-I run Inland Elite Hosting here in North Idaho, managed WordPress hosting and the technical side that comes after a site goes live. If that's not something you want to hold onto once a project wraps, it's the kind of work I take on.
+I run Inland Elite Hosting out of Hayden, managed WordPress hosting and the technical side that comes after a site goes live. If that's not something you want to hold onto once a project wraps, it's the kind of work I take on.
 
 How do you handle that now?
-
-Brian Clark
-Inland Elite Hosting
 
 ---
 

@@ -14,9 +14,6 @@ Curious what you use for hosting on the WordPress side, looks like you might alr
 
 Good to connect with another local dev either way.
 
-Brian Clark
-Inland Elite Hosting
-
 ---
 
 ## QA result

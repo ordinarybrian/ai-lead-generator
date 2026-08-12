@@ -1,6 +1,6 @@
 # Robert Nelson, initial contact-form message v1 (2026-08-11)
 
-Status: Drafted, not sent. No email address exists for Robert Nelson or Ever Marketing anywhere on the site (checked /about, /contact, footer -- see `leads/ever-marketing/organization.md`), so this is written for submission through the contact form at https://ever.marketing/contact rather than as an email. Brian approved outreach 2026-08-11 as fact-finding only: learn what he actually does for hosting today, since the site lists "web hosting" as a service line but gives no detail on whether he hosts in-house, resells, or just supports client-managed hosting.
+Status: Drafted, not sent. No email address exists for Robert Nelson or Ever Marketing anywhere on the site (checked /about, /contact, footer -- see `leads/ever-marketing/organization.md`), so this is written for submission through the contact form at https://ever.marketing/contact rather than as an email. Brian approved outreach 2026-08-11 as fact-finding only: learn what he actually does for hosting today, since the site lists "web hosting" as a service line but gives no detail on whether he hosts in-house, resells, or just supports client-managed hosting. Updated 2026-08-12: location line changed from "here in North Idaho" to "out of Hayden" per PROJECT.md's new per-city location rule (Ever Marketing is CDA-based, so this recipient gets the Hayden line, not the generic regional phrase).
 
 ---
 
@@ -9,12 +9,9 @@ Status: Drafted, not sent. No email address exists for Robert Nelson or Ever Mar
 
 Hi Robert,
 
-I noticed hosting is listed alongside design on your site. I run Inland Elite Hosting here in North Idaho, mostly managed WordPress hosting, and I'm curious how you handle that piece for the sites you build.
+I noticed hosting is listed alongside design on your site. I run Inland Elite Hosting out of Hayden, mostly managed WordPress hosting, and I'm curious how you handle that piece for the sites you build.
 
 What's your setup there?
-
-Brian Clark
-Inland Elite Hosting
 
 ---
 
