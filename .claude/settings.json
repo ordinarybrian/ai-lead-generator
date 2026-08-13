@@ -15,7 +15,12 @@
       "Bash(awk *)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(python3 -m py_compile scripts/clickup_sync.py)",
+      "Bash(python3 scripts/clickup_sync.py --help)",
+      "Bash(claude mcp *)",
+      "Bash(python3 -c ' *)",
+      "Bash(git check-ignore *)"
     ]
   }
 }

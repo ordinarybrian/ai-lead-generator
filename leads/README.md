@@ -26,6 +26,14 @@ See `../examples/sample-domain-brokerage/leads/` for a fully populated reference
 (with additional columns such as `organization_type`, `market_or_audience`, and
 `strategic_story` that were specific to that project).
 
+If you sync this CSV to ClickUp via `../scripts/clickup_sync.py`, most column renames need
+no code changes — the script maps any column to a same-named ClickUp custom field
+automatically. The exception is five columns the script special-cases by literal name:
+`organization` (task name), `next_action_date` (native due date), `outreach_status`
+(native status), `priority` (via a hardcoded `PRIORITY_MAP`), and `notes` (task
+description). Renaming or removing any of those requires editing the corresponding
+string literal(s) in the script — see its module docstring and `NATIVE_COLUMNS`.
+
 ## Column reference
 
 | Column | Purpose |
