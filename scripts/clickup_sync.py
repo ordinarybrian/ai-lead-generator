@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync leads/lead-index.csv into a ClickUp List, one task per organization.
+"""Sync project/leads/lead-index.csv into a ClickUp List, one task per organization.
 
 Setup
 -----
@@ -26,8 +26,9 @@ Matching existing tasks to CSV rows is done by exact task-name == organization-n
 match (fetched fresh from the List each run) -- there is no local id-mapping file to
 keep in sync or go stale. Re-running is safe: it converges the List to match the CSV.
 
-This project's CSV schema is intentionally adaptable (see leads/README.md), so this
-script does not hardcode a fixed column list -- it maps whatever columns are present.
+This project's CSV schema is intentionally adaptable (see project/leads/README.md), so
+this script does not hardcode a fixed column list -- it maps whatever columns are
+present.
 """
 
 from __future__ import annotations
@@ -45,7 +46,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_CSV = REPO_ROOT / "leads" / "lead-index.csv"
+DEFAULT_CSV = REPO_ROOT / "project" / "leads" / "lead-index.csv"
 API_BASE = "https://api.clickup.com/api/v2"
 
 # organization -> task name; next_action_date -> native due date; outreach_status ->
