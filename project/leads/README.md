@@ -1,7 +1,7 @@
 # Leads
 
 This folder contains the lead pipeline and detailed research for individual organizations
-(or, depending on your use case, roles, individuals, or partners — see `PROJECT.md`).
+(or, depending on your use case, roles, individuals, or partners — see `project/PROJECT.md`).
 
 ## Workflow
 
@@ -9,7 +9,7 @@ This folder contains the lead pipeline and detailed research for individual orga
 2. Create one lowercase, hyphenated organization folder, such as `<organization-slug>/`.
 3. Keep organization facts in `organization.md`, leadership notes in `leadership.md`, and source links in `sources.md`.
 4. Keep individual decision-maker research in `people/<person-slug>.md`.
-5. Store generated outreach outside this folder under `../outreach/<organization-slug>/<person-slug>/`.
+5. Store generated outreach outside this folder under `project/outreach/<organization-slug>/<person-slug>/`.
 
 Do not create a detailed folder until the organization is a plausible prospect. Preserve uncertainty and verify current facts before outreach.
 
@@ -22,11 +22,11 @@ project might add `ask_amount` or `gift_capacity`. Preserve whatever columns you
 once real data is in them, and avoid removing columns other than the two placeholder
 rows shipped in the template.
 
-See `../examples/sample-domain-brokerage/leads/` for a fully populated reference example
-(with additional columns such as `organization_type`, `market_or_audience`, and
+See `examples/sample-domain-brokerage/project/leads/` for a fully populated reference
+example (with additional columns such as `organization_type`, `market_or_audience`, and
 `strategic_story` that were specific to that project).
 
-If you sync this CSV to ClickUp via `../scripts/clickup_sync.py`, most column renames need
+If you sync this CSV to ClickUp via `scripts/clickup_sync.py`, most column renames need
 no code changes — the script maps any column to a same-named ClickUp custom field
 automatically. The exception is five columns the script special-cases by literal name:
 `organization` (task name), `next_action_date` (native due date), `outreach_status`
@@ -40,7 +40,7 @@ string literal(s) in the script — see its module docstring and `NATIVE_COLUMNS
 |---|---|
 | `organization` | Organization (or role/target) name. |
 | `website` | Primary URL. |
-| `primary_contact` | Name of the first-choice contact, per `PROJECT.md`'s priority order. |
+| `primary_contact` | Name of the first-choice contact, per `project/PROJECT.md`'s priority order. |
 | `contact_title` | Their title, as currently verified. |
 | `linkedin_url` | Contact's LinkedIn profile, if found. |
 | `email` | Contact's email address, if any is known or guessed. |
