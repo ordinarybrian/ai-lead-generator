@@ -57,7 +57,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_CSV = REPO_ROOT / "leads" / "lead-index.csv"
+DEFAULT_CSV = REPO_ROOT / "project" / "leads" / "lead-index.csv"
 API_BASE = "https://api.clickup.com/api/v2"
 
 # organization -> task name; next_action_date -> native due date; outreach_status ->

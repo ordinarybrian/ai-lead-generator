@@ -6,13 +6,13 @@ Store drafts and QA results by organization and person:
 
 Example: `<organization-slug>/<person-slug>/first-contact.md` and `first-contact.qa.md`.
 
-Do not send messages automatically. A draft is not a record of contact; update `leads/lead-index.csv` only when an outreach action is actually authorized and completed.
+Do not send messages automatically. A draft is not a record of contact; update `project/leads/lead-index.csv` only when an outreach action is actually authorized and completed.
 
-Before drafting or sending, run the lead through Test 0 in `../email-rules/email-qa.md`:
-check `do_not_contact` on the lead's row in `../leads/lead-index.csv`, and confirm any
+Before drafting or sending, run the lead through Test 0 in `project/email-rules/email-qa.md`:
+check `do_not_contact` on the lead's row in `project/leads/lead-index.csv`, and confirm any
 fact referenced in the draft is still current per `last_verified`. Once an outreach
 action is logged, also update `next_action_date` so the follow-up cadence stays
 queryable.
 
-See `../examples/sample-domain-brokerage/outreach/` for a fully worked reference example,
-including a QA'd draft under `aarp/anna-banks/`.
+See `examples/sample-domain-brokerage/project/outreach/` for a fully worked reference
+example, including a QA'd draft under `aarp/anna-banks/`.

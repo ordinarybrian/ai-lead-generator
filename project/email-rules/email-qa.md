@@ -17,14 +17,14 @@ Run this before any of the tone/style tests below. A perfectly-written email bui
 stale fact or sent to a suppressed contact is still a FAIL, and no amount of gate-passing
 prose fixes that.
 
-Check the lead's row in `leads/lead-index.csv` and its `leads/<organization-slug>/`
+Check the lead's row in `project/leads/lead-index.csv` and its `project/leads/<organization-slug>/`
 files:
 
 1. Is `do_not_contact` set to `TRUE` for this lead? If so, stop — do not send or keep
    drafting. Flag it instead of proceeding.
 2. Does every fact the draft references about the recipient (title, company, a recent
    event or initiative) match the current lead record, and is it traceable to
-   `leads/<organization-slug>/sources.md`?
+   `project/leads/<organization-slug>/sources.md`?
 3. Is `last_verified` on the lead row recent enough to trust? If it's stale, re-verify
    the fact before sending — don't ship a draft built on an assumption that the contact
    still holds that title or that company detail is still accurate.
@@ -381,7 +381,7 @@ One or more. Rewrite the sentence with a period, a comma, or a parenthetical ins
 Imagine the recipient is one of this project's actual top prospects.
 
 **Replace the placeholder names below with this project's current top prospects from
-`leads/lead-index.csv` / `PROJECT.md` before running QA** — the gate only works if you
+`project/leads/lead-index.csv` / `project/PROJECT.md` before running QA** — the gate only works if you
 picture a real, specific person.
 
 - Valik Rudd, Owner / Senior Web Developer of Timber Web Design

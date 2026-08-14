@@ -770,10 +770,10 @@ before proposing commercial terms.
 Do not mention price, compensation, or budget unless instructed.
 
 If this project has commercial terms, they live in the "Optional: Commercial Terms"
-section of `PROJECT.md` — read the current figures there rather than assuming any are
+section of `project/PROJECT.md` — read the current figures there rather than assuming any are
 fixed here.
 
-Never disclose a confidential floor, minimum, or budget ceiling beyond what `PROJECT.md`
+Never disclose a confidential floor, minimum, or budget ceiling beyond what `project/PROJECT.md`
 marks as shareable.
 
 ---
@@ -815,10 +815,10 @@ Who's in the target category?
 
 # Contact Selection
 
-Follow the contact-selection priority order defined in `PROJECT.md` for this project.
+Follow the contact-selection priority order defined in `project/PROJECT.md` for this project.
 
 Do not default to the most senior title (CEO, founder) as the first contact unless
-`PROJECT.md` says the organization is small enough that no better-fit role exists.
+`project/PROJECT.md` says the organization is small enough that no better-fit role exists.
 
 ---
 
