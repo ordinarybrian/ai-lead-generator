@@ -36,6 +36,7 @@ import argparse
 import csv
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -125,6 +126,21 @@ def to_epoch_ms(date_str: str) -> int | None:
     return int(dt.timestamp() * 1000)
 
 
+def to_e164(value: str, field_name: str) -> str | None:
+    """ClickUp's phone field rejects anything without a leading '+<country code>'.
+    Assumes unmarked 10/11-digit numbers are US/Canada (+1)."""
+    digits = re.sub(r"\D", "", value)
+    if value.startswith("+") and digits:
+        return f"+{digits}"
+    if len(digits) == 10:
+        return f"+1{digits}"
+    if len(digits) == 11 and digits.startswith("1"):
+        return f"+{digits}"
+    print(f"warning: {value!r} in field {field_name!r} doesn't look like a valid "
+          f"phone number; skipping", file=sys.stderr)
+    return None
+
+
 def resolve_status(value: str, list_statuses: list[dict]) -> str | None:
     value = value.strip()
     if not value:
@@ -157,7 +173,9 @@ def resolve_custom_field_value(field: dict, raw_value: str):
             return float(value) if "." in value else int(value)
         except ValueError:
             return None
-    return value  # text, short_text, url, email, phone, ...
+    if field_type == "phone":
+        return to_e164(value, field["name"])
+    return value  # text, short_text, url, email, ...
 
 
 def build_task_payload(row: dict, custom_fields: list[dict], list_statuses: list[dict],

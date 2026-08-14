@@ -4,8 +4,8 @@
       "Read",
       "Grep",
       "Glob",
-      "WebSearch(*)",
-      "WebFetch(*)",
+      "WebSearch",
+      "WebFetch",
       "Bash(git status)",
       "Bash(git status *)",
       "Bash(git diff)",
@@ -20,7 +20,19 @@
       "Bash(python3 scripts/clickup_sync.py --help)",
       "Bash(claude mcp *)",
       "Bash(python3 -c ' *)",
-      "Bash(git check-ignore *)"
+      "Bash(git check-ignore *)",
+      "WebFetch(domain:www.lakecitycenter.org)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "WebFetch(domain:andysheating.com)",
+      "WebFetch(domain:cdaspokanehvac.com)",
+      "WebFetch(domain:hollidayheating.com)",
+      "WebFetch(domain:monaghanmechanical.com)",
+      "mcp__clickup__clickup_get_workspace_hierarchy",
+      "mcp__clickup__clickup_get_list",
+      "mcp__clickup__clickup_get_custom_fields",
+      "mcp__clickup__clickup_filter_tasks",
+      "mcp__clickup__clickup_delete_task"
     ]
   }
 }
