@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync leads/lead-index.csv into a ClickUp List, one task per organization.
+"""Sync project/leads/lead-index.csv into a ClickUp List, one task per organization.
 
 Setup
 -----
@@ -37,8 +37,9 @@ non-blank value that differs from the CSV -- an unset ClickUp field never blanks
 existing CSV data. Note `priority` is lossy in this direction: ClickUp has no "A+" tier
 distinct from "A", so both collapse to `A` on pull.
 
-This project's CSV schema is intentionally adaptable (see leads/README.md), so this
-script does not hardcode a fixed column list -- it maps whatever columns are present.
+This project's CSV schema is intentionally adaptable (see project/leads/README.md), so
+this script does not hardcode a fixed column list -- it maps whatever columns are
+present.
 """
 
 from __future__ import annotations
