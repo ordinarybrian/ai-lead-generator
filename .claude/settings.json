@@ -6,9 +6,9 @@
       "Glob",
       "WebSearch(*)",
       "WebFetch(*)",
-      "Edit(/Users/admin/Documents/AI Projects/leadgen-inlandelite/leads/**)",
-      "Write(/Users/admin/Documents/AI Projects/leadgen-inlandelite/leads/**)",
-      "Bash(mkdir -p \"/Users/admin/Documents/AI Projects/leadgen-inlandelite/leads/*\")",
+      "Edit(/Users/admin/Documents/AI Projects/leadgen-inlandelite/project/leads/**)",
+      "Write(/Users/admin/Documents/AI Projects/leadgen-inlandelite/project/leads/**)",
+      "Bash(mkdir -p \"/Users/admin/Documents/AI Projects/leadgen-inlandelite/project/leads/*\")",
       "Bash(git status)",
       "Bash(git status *)",
       "Bash(git diff)",
@@ -19,7 +19,7 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(cd \"/Users/admin/Documents/AI Projects/leadgen-inlandelite\" && cp leads/lead-index.csv leads/lead-index.csv.bak)",
+      "Bash(cd \"/Users/admin/Documents/AI Projects/leadgen-inlandelite\" && cp project/leads/lead-index.csv project/leads/lead-index.csv.bak)",
       "Bash(python3 -c ' *)",
       "Bash(python3 -m py_compile scripts/clickup_sync.py)",
       "Bash(python3 scripts/clickup_sync.py --help)",
@@ -28,7 +28,7 @@
       "Bash(python3 scripts/clickup_sync.py)"
     ],
     "additionalDirectories": [
-      "/Users/admin/Documents/AI Projects/leadgen-inlandelite/leads"
+      "/Users/admin/Documents/AI Projects/leadgen-inlandelite/project/leads"
     ]
   }
 }

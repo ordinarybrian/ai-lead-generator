@@ -1,7 +1,7 @@
 # Leads
 
 This folder contains the lead pipeline and detailed research for individual organizations
-(or, depending on your use case, roles, individuals, or partners — see `PROJECT.md`).
+(or, depending on your use case, roles, individuals, or partners — see `project/PROJECT.md`).
 
 ## Workflow
 
@@ -9,7 +9,7 @@ This folder contains the lead pipeline and detailed research for individual orga
 2. Create one lowercase, hyphenated organization folder, such as `<organization-slug>/`.
 3. Keep organization facts in `organization.md`, leadership notes in `leadership.md`, and source links in `sources.md`.
 4. Keep individual decision-maker research in `people/<person-slug>.md`.
-5. Store generated outreach outside this folder under `../outreach/<organization-slug>/<person-slug>/`.
+5. Store generated outreach outside this folder under `project/outreach/<organization-slug>/<person-slug>/`.
 
 Do not create a detailed folder until the organization is a plausible prospect. Preserve uncertainty and verify current facts before outreach.
 
@@ -22,11 +22,11 @@ project might add `ask_amount` or `gift_capacity`. Preserve whatever columns you
 once real data is in them, and avoid removing columns other than the two placeholder
 rows shipped in the template.
 
-See `../examples/sample-domain-brokerage/leads/` for a fully populated reference example
-(with additional columns such as `organization_type`, `market_or_audience`, and
+See `examples/sample-domain-brokerage/project/leads/` for a fully populated reference
+example (with additional columns such as `organization_type`, `market_or_audience`, and
 `strategic_story` that were specific to that project).
 
-If you sync this CSV to ClickUp via `../scripts/clickup_sync.py`, most column renames need
+If you sync this CSV to ClickUp via `scripts/clickup_sync.py`, most column renames need
 no code changes — the script maps any column to a same-named ClickUp custom field
 automatically. The exception is five columns the script special-cases by literal name:
 `organization` (task name), `next_action_date` (native due date), `outreach_status`
@@ -39,7 +39,7 @@ string literal(s) in the script — see its module docstring and `NATIVE_COLUMNS
 This branch's `lead-index.csv` has grown past the shipped template (see "Adapting the CSV
 schema" above) — this table reflects the columns actually in use here, in header order.
 The "ClickUp Field Type" column is what to create on the target List in
-`../scripts/clickup_sync.py`'s Setup step 1/2 (see that script's docstring); columns
+`scripts/clickup_sync.py`'s Setup step 1/2 (see that script's docstring); columns
 marked "Native" are handled by ClickUp's built-in task attributes, not a custom field.
 
 | Column | Purpose | ClickUp Field Type |
@@ -47,7 +47,7 @@ marked "Native" are handled by ClickUp's built-in task attributes, not a custom 
 | `organization` | Organization (or role/target) name. | Native — Task Name |
 | `website` | Primary URL. | URL |
 | `lead_type` | Short category/role description for the lead (e.g. `Freelance Web Developer`, `Small Marketing Agency`). | Text |
-| `primary_contact` | Name of the first-choice contact, per `PROJECT.md`'s priority order. | Text |
+| `primary_contact` | Name of the first-choice contact, per `project/PROJECT.md`'s priority order. | Text |
 | `contact_title` | Their title, as currently verified. | Text |
 | `linkedin_url` | Contact's LinkedIn profile, if found. | URL |
 | `email` | Contact's email address, if any is known or guessed. | Email |
@@ -61,7 +61,7 @@ marked "Native" are handled by ClickUp's built-in task attributes, not a custom 
 | `priority` | This project's priority tier (e.g. `A+`, `A`, `B`, `C`). | Native — Priority (lossy: `A+` and `A` both map to ClickUp's single "Urgent" tier) |
 | `qualification_status` | Research verdict on whether this lead is worth pursuing, e.g. `qualified`, `disqualified`. | Drop Down: `qualified`, `disqualified` (add options as new verdicts appear) |
 | `fit_reason` | Free-text explanation of why the lead is (or isn't) a good fit — the evidence behind `qualification_status`. | Text |
-| `outreach_status` | Pipeline stage (e.g. `Researching`, `Ready for Outreach`, `Initial Email Sent`, `Follow-up 1 Sent`, `On Hold`, `Replied`, `No Response`, `Closed Won`, `Closed Lost`). | Native — Status (must exactly match a List Status, added via ClickUp's List settings — see `../scripts/clickup_sync.py`'s docstring) |
+| `outreach_status` | Pipeline stage (e.g. `Researching`, `Ready for Outreach`, `Initial Email Sent`, `Follow-up 1 Sent`, `On Hold`, `Replied`, `No Response`, `Closed Won`, `Closed Lost`). | Native — Status (must exactly match a List Status, added via ClickUp's List settings — see `scripts/clickup_sync.py`'s docstring) |
 | `contact_attempts` | Running count of outreach attempts made so far. | Number |
 | `last_contact_date` | ISO date of the most recent actual contact attempt. | Date |
 | `next_action` | Free-text description of what to do next. | Text |

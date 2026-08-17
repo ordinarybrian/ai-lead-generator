@@ -165,22 +165,23 @@ role/contact at the same company.
 -->
 
 Do not contact multiple people at the same organization on the same day. Log every
-contact attempt in `leads/lead-index.csv`, including a `next_action_date` for whatever
-comes next so due and overdue follow-ups can be found without re-reading every row.
+contact attempt in `project/leads/lead-index.csv`, including a `next_action_date` for
+whatever comes next so due and overdue follow-ups can be found without re-reading every
+row.
 
 If a contact asks not to be contacted again, set `do_not_contact` to `TRUE` on their row
-immediately — see `leads/README.md` and `AGENTS.md` for how that's enforced.
+immediately — see `project/leads/README.md` and `AGENTS.md` for how that's enforced.
 
 ## Language and Tone
 
 The detailed anti-AI-tell rules (Pass/Fail Gates, banned-phrase lists) live in
-`email-rules/email-writing-rules.md` and the QA checklist lives in
-`email-rules/email-qa.md` — read those before drafting or reviewing outreach. They are
-domain-agnostic and rarely need project-specific edits.
+`project/email-rules/email-writing-rules.md` and the QA checklist lives in
+`project/email-rules/email-qa.md` — read those before drafting or reviewing outreach.
+They are domain-agnostic and rarely need project-specific edits.
 
 The one thing worth customizing per project is the **Final Gate** reviewer list in
-`email-rules/email-qa.md` — replace the placeholder names there with this project's
-actual top prospects, so the QA step imagines the real recipients.
+`project/email-rules/email-qa.md` — replace the placeholder names there with this
+project's actual top prospects, so the QA step imagines the real recipients.
 
 ---
 
