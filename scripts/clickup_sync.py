@@ -222,7 +222,7 @@ def reverse_custom_field_value(field: dict, value, tz: ZoneInfo) -> str:
 
 def build_task_payload(row: dict, custom_fields: list[dict], list_statuses: list[dict],
                         description_column: str | None,
-                        tz: ZoneInfo) -> tuple[dict, list[str], str | None]:
+                        tz: ZoneInfo) -> tuple[dict, list[dict], list[str], str | None]:
     payload: dict = {}
     unmapped: list[str] = []
     unmatched_status: str | None = None
@@ -261,10 +261,8 @@ def build_task_payload(row: dict, custom_fields: list[dict], list_statuses: list
         value = resolve_custom_field_value(field, raw_value, tz)
         if value is not None:
             resolved_custom_fields.append({"id": field["id"], "value": value})
-    if resolved_custom_fields:
-        payload["custom_fields"] = resolved_custom_fields
 
-    return payload, unmapped, unmatched_status
+    return payload, resolved_custom_fields, unmapped, unmatched_status
 
 
 def sync(csv_path: Path, token: str, list_id: str, dry_run: bool) -> None:
@@ -285,7 +283,7 @@ def sync(csv_path: Path, token: str, list_id: str, dry_run: bool) -> None:
         org = row.get("organization", "").strip()
         if not org:
             continue
-        payload, unmapped, unmatched_status = build_task_payload(
+        payload, custom_field_values, unmapped, unmatched_status = build_task_payload(
             row, custom_fields, list_statuses, description_column, tz)
         all_unmapped.update(unmapped)
         if unmatched_status:
@@ -301,10 +299,19 @@ def sync(csv_path: Path, token: str, list_id: str, dry_run: bool) -> None:
             payload = {"name": org, **payload}
 
         if dry_run:
-            print(f"[dry-run] {action}: {json.dumps(payload, indent=2)}")
+            print(f"[dry-run] {action}: "
+                  f"{json.dumps({**payload, 'custom_fields': custom_field_values}, indent=2)}")
             continue
 
-        api_request(token, method, path, payload)
+        resp = api_request(token, method, path, payload)
+        if not task_id:
+            task_id = resp["id"]
+        # Custom Fields go through the dedicated per-field endpoint, not the bulk
+        # `custom_fields` array on Create/Update Task -- ClickUp's bulk array silently
+        # drops values for at least the "text" (long text) field type, with no error.
+        for cf in custom_field_values:
+            api_request(token, "POST", f"/task/{task_id}/field/{cf['id']}",
+                        {"value": cf["value"]})
         print(action)
 
     if all_unmapped:

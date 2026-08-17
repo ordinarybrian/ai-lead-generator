@@ -15,7 +15,7 @@ Read only the files relevant to the current objective. Always read this file fir
 - Lead discovery or grading: `project/leads/README.md`, then `project/leads/lead-index.csv`; read an organization folder only when evaluating that organization.
 - Organization research: `project/leads/<organization-slug>/organization.md`, `leadership.md`, and `sources.md` as needed.
 - Person research: the relevant file under `project/leads/<organization-slug>/people/` and only the sources needed to verify it.
-- Email drafting: the relevant organization and person files, `project/email-rules/email-writing-rules.md`, and any specifically requested asset.
+- Email drafting: the relevant organization and person files, `project/email-rules/email-writing-rules.md`, and any specifically requested asset. If this project's CSV has a column for the current send-ready draft (check `project/leads/README.md`), mirror the QA'd draft into it and rotate it to the next follow-up's draft once an email is sent — full version history stays in `project/outreach/`, not that column.
 - Email QA: `project/email-rules/email-qa.md`, the draft under `project/outreach/<organization-slug>/<person-slug>/`, and no unrelated lead files.
 - Positioning, targeting, commercial terms, or project-wide strategy: read `project/PROJECT.md`.
 - Pipeline health check: `project/leads/lead-index.csv` only — see "Pipeline health check" below.
