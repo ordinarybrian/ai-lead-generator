@@ -1,6 +1,6 @@
 # Brandon Parker, initial LinkedIn message v1 (2026-08-11)
 
-Status: Drafted, not sent. No email exists anywhere for Brandon Parker (checked his site and GitHub, see `leads/brandon-parker/organization.md`), so this is written as a LinkedIn message rather than an email. Brian said this lead is worth reaching out to but likely already has his own hosting setup -- his GitHub includes his own Docker/infrastructure experiments -- so the message is framed as low-stakes curiosity, not a pitch.
+Status: Closed 2026-08-17, never sent. No email exists anywhere for Brandon Parker (checked his site and GitHub, see `leads/brandon-parker/organization.md`), so this was written as a LinkedIn message rather than an email. Brian said this lead is worth reaching out to but likely already has his own hosting setup -- his GitHub includes his own Docker/infrastructure experiments -- so the message is framed as low-stakes curiosity, not a pitch. Brian judged the lead not worthwhile and closed it before sending.
 
 ---
 

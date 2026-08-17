@@ -1,6 +1,6 @@
 # Jay Forde, initial email v1 (2026-08-11)
 
-Status: Drafted, not sent. Brian approved outreach on 2026-08-11 with two explicit constraints: no "local partnership" framing (he's Seattle-based, not local to North Idaho/Spokane -- see `leads/jf-designs/organization.md`), and keep the partnership/white-label hosting idea. White-label is raised per PROJECT.md's standing "WHITE-LABEL / RESELLER OPTION," offered as a possibility to discuss, not a fixed program with set rates.
+Status: Sent 2026-08-17. Brian approved outreach on 2026-08-11 with two explicit constraints: no "local partnership" framing (he's Seattle-based, not local to North Idaho/Spokane -- see `leads/jf-designs/organization.md`), and keep the partnership/white-label hosting idea. White-label is raised per PROJECT.md's standing "WHITE-LABEL / RESELLER OPTION," offered as a possibility to discuss, not a fixed program with set rates.
 
 ---
 
