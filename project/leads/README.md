@@ -60,7 +60,23 @@ map to a built-in ClickUp task property instead of a custom field — see
 | `last_contact_date` | ISO date of the most recent actual contact attempt. | `date` |
 | `next_action` | Free-text description of what to do next. | `text` |
 | `next_action_date` | ISO date the next action is due — kept separate from `next_action` so due/overdue items can be sorted or queried instead of parsed out of prose. | *native — task due date* |
+| `email_draft` | The ready-to-send email for the *next* outreach touch: recipient address(es), subject, and body, in `To: / Subject: / Body:` format. Holds the initial-outreach draft until that email is actually sent, then gets overwritten with the next follow-up's draft — see "Email draft rotation" below. | `text` |
 | `notes` | Anything else worth recording. | *native — task description* |
+
+## Email draft rotation
+
+`email_draft` always holds the *next* email to send for that lead, not a history of past
+ones — history lives in the dated files under `project/outreach/<organization-slug>/<person-slug>/`.
+
+1. Before the first send, write the initial-outreach draft into `email_draft` (`To:` /
+   `Subject:` / `Body:`).
+2. Once that email is actually sent, replace `email_draft` with the next follow-up's
+   draft (per the cadence in `project/PROJECT.md`'s "Outreach Cadence"), and update
+   `outreach_status`, `last_contact_date`, and `next_action_date` at the same time.
+3. Repeat after each subsequent send — `email_draft` is overwritten, not appended to,
+   so it always reflects what's queued up next.
+4. Never overwrite `email_draft` with a new draft that hasn't been QA'd — run it through
+   `project/email-rules/email-qa.md` first, same as any other draft.
 
 ## CSV hygiene rules
 

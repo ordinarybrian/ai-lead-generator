@@ -14,5 +14,10 @@ fact referenced in the draft is still current per `last_verified`. Once an outre
 action is logged, also update `next_action_date` so the follow-up cadence stays
 queryable.
 
+Also mirror the QA'd draft into the lead row's `email_draft` column (`To:` / `Subject:` /
+`Body:`) so it's visible from the pipeline view (including in ClickUp, if synced). After
+that email is actually sent, overwrite `email_draft` with the next follow-up's draft —
+see "Email draft rotation" in `project/leads/README.md`.
+
 See `examples/sample-domain-brokerage/project/outreach/` for a fully worked reference
 example, including a QA'd draft under `aarp/anna-banks/`.
