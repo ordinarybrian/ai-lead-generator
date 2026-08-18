@@ -56,7 +56,7 @@ map to a built-in ClickUp task property instead of a custom field — see
 | `last_verified` | ISO date (`YYYY-MM-DD`) the contact's title/employment was last checked. Titles and jobs change — re-check before outreach if this is stale. | `date` |
 | `do_not_contact` | Leave blank normally. Set to `TRUE` if this lead should never be contacted again (explicit opt-out, bounced permanently, etc.). Always check this before drafting or sending. | `checkbox` |
 | `priority` | This project's priority tier (e.g. `A+`, `A`, `B`, `C`). | *native — task priority, via `PRIORITY_MAP`* |
-| `outreach_status` | Pipeline stage (e.g. `Researching`, `Ready for Outreach`, `Initial Email Sent`, `Follow-up 1 Sent`, `Replied`, `No Response`, `Closed Won`, `Closed Lost`). | *native — task status; add matching List statuses* |
+| `outreach_status` | Pipeline stage: `Researching` → `Ready for Outreach` → `Initial Outreach Complete` → `Follow-up Complete` / `Follow-up Needed` / `In Discussion` → `Closed Won` / `Closed Lost` / `Not Pursuing` / `Closed`. Channel-agnostic (phone, email, or otherwise) — `next_action` carries which specific touch is next. | *native — task status; add matching List statuses* |
 | `last_contact_date` | ISO date of the most recent actual contact attempt. | `date` |
 | `next_action` | Free-text description of what to do next. | `text` |
 | `next_action_date` | ISO date the next action is due — kept separate from `next_action` so due/overdue items can be sorted or queried instead of parsed out of prose. | *native — task due date* |

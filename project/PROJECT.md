@@ -83,14 +83,44 @@ Law firms, accounting firms, financial services, insurance agencies, real estate
 > Healthcare, Wellness & Specialty Practices
 Chiropractic, dentistry, optometry, physical therapy, med spas, private medical practices, wellness businesses, fitness facilities, and similar owner-operated practices.
 
-> Hospitality, Food & Tourism
-Restaurants, coffee shops, breweries, hotels, vacation-rental companies, attractions, recreation companies, event venues, and tourism-oriented businesses.
+> Hospitality & Tourism
+Hotels, vacation-rental companies, attractions, recreation companies, event venues, and tourism-oriented businesses. (Restaurants, coffee shops, and breweries excluded as low-margin food-service categories unlikely to sustain Blackbird's engagement.)
 
 > Retail & E-Commerce Businesses
 Established local retailers, specialty stores, manufacturers with direct-to-consumer sales, Shopify businesses, and companies attempting to grow online sales. Blackbird specifically promotes Shopify and broader e-commerce development capabilities.
 
+> Cannabis Dispensaries
+Licensed cannabis retailers needing branding, website, local SEO, or social/content support within the bounds of cannabis advertising regulations (no Google/Meta ads, restricted email/SMS marketing in most cases). Note: recreational and medical cannabis are not legal in Idaho, so this category only applies to licensed dispensaries on the Washington side of the territory (Spokane/Spokane Valley and other legal-market areas) — not Coeur d'Alene, Post Falls, Hayden, or Rathdrum.
+
 > B2B & Industrial Businesses
 Manufacturers, distributors, commercial contractors, equipment companies, technical services, and established B2B companies whose marketing has historically relied heavily on referrals or sales relationships.
+
+> Automotive
+Dealerships, repair and service shops, detailing businesses, and tire shops — owner-operated, competitive on local SEO/PPC, and rarely staffed with in-house marketing.
+
+> Recreation, Marine & Outdoor
+Marinas, boat dealers and service centers, ski resorts, golf courses, and outfitters/guide services. Strong regional fit given the Coeur d'Alene lake and outdoor-recreation economy.
+
+> Veterinary Practices
+Veterinary clinics and animal hospitals — owner-operated, local-search-driven, and a good parallel to the human healthcare/wellness category above.
+
+> Senior Living & Home Care
+Assisted living, memory care, and in-home care agencies. High marketing spend, family-decision-maker-driven, and typically underserved by larger agencies.
+
+> Education & Childcare
+Private schools, daycare/preschool chains, tutoring centers, and driving schools. Enrollment-driven marketing need with local geographic targeting.
+
+> Banking & Credit Unions
+Community banks and credit unions, distinct from the professional-services financial category above — often need brand and local campaign work rather than referral-based sales support.
+
+> Agriculture & Ag-Adjacent Businesses
+Farm equipment dealers, agricultural co-ops, and agritourism operations, reflecting the Inland Northwest's agricultural base.
+
+> Faith-Based Organizations
+Churches and ministries with event, communications, and website needs — distinct enough from general nonprofits to warrant separate consideration.
+
+> Wedding & Events Industry
+Venues, planners, and photographers serving the Coeur d'Alene lake-resort wedding market, a recognized regional draw.
 
 > Nonprofits & Community Organizations
 Established organizations with ongoing fundraising, awareness, recruitment, event, website, or communications needs.
