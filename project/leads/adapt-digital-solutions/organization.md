@@ -39,3 +39,7 @@
 - Site pages reviewed 2026-08-10: homepage, /contact-us/, /about-our-company/, /coeur-dalene/, /website-maintenance/, one articles page.
 - Third-party listings reviewed 2026-08-10: BBB, Digital Excellence Awards, RocketReach (company + individual), LinkedIn company page (via fetch, partial), ZoomInfo (via search only, page not fetched), DesignRush (see caution below — likely a different, unrelated company).
 - See `sources.md` for full citation list and `people/` for individual contacts.
+
+## Caution: contact form behavior
+
+- The `/contact-us/` form does not appear to route to a human reading the actual message. A fact-finding submission (2026-08-17, see `outreach/adapt-digital-solutions/chuck-kile/`) got two same-day stock text replies (from Chuck, then from a "Valerie" on his marketing team) both treating it as a prospective-customer lead for Adapt's own "get more customers" service, with no sign the content was read. The text also invented a company name, "Brian Clark Designs," that doesn't exist — likely a default from whatever CRM/text-automation tool populates a required field, not something entered by the sender. Treat this form as a sales-intake funnel, not a reliable way to reach Chuck directly, if this lead comes up again.
