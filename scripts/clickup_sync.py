@@ -25,6 +25,19 @@ Usage
     python3 scripts/clickup_sync.py             # create/update tasks for real
     python3 scripts/clickup_sync.py --pull --dry-run   # preview pulling ClickUp -> CSV
     python3 scripts/clickup_sync.py --pull             # write ClickUp changes into the CSV
+    python3 scripts/clickup_sync.py --native-only       # push only status/priority/due
+                                                          # date/description -- skips all
+                                                          # per-field Custom Field API
+                                                          # calls, which count against
+                                                          # ClickUp's plan-limited,
+                                                          # non-resetting Custom Field
+                                                          # "uses" quota (Free plan: 60
+                                                          # total, ever -- see
+                                                          # https://help.clickup.com/hc/en-us/articles/10993484102167).
+                                                          # Once that quota is exhausted,
+                                                          # use --native-only for routine
+                                                          # updates and reserve a full
+                                                          # sync for after a plan upgrade.
 
 Matching existing tasks to CSV rows is done by exact task-name == organization-name
 match (fetched fresh from the List each run) -- there is no local id-mapping file to
@@ -283,7 +296,8 @@ def build_task_payload(row: dict, custom_fields: list[dict], list_statuses: list
     return payload, resolved_custom_fields, unmapped, unmatched_status
 
 
-def sync(csv_path: Path, token: str, list_id: str, dry_run: bool) -> None:
+def sync(csv_path: Path, token: str, list_id: str, dry_run: bool,
+         native_only: bool = False) -> None:
     with csv_path.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
 
@@ -303,7 +317,10 @@ def sync(csv_path: Path, token: str, list_id: str, dry_run: bool) -> None:
             continue
         payload, custom_field_values, unmapped, unmatched_status = build_task_payload(
             row, custom_fields, list_statuses, description_column, tz)
-        all_unmapped.update(unmapped)
+        if native_only:
+            custom_field_values = []
+        else:
+            all_unmapped.update(unmapped)
         if unmatched_status:
             unmatched_statuses.setdefault(unmatched_status, []).append(org)
 
@@ -327,6 +344,9 @@ def sync(csv_path: Path, token: str, list_id: str, dry_run: bool) -> None:
         # Custom Fields go through the dedicated per-field endpoint, not the bulk
         # `custom_fields` array on Create/Update Task -- ClickUp's bulk array silently
         # drops values for at least the "text" (long text) field type, with no error.
+        # Each call here permanently consumes one of the Workspace's Custom Field
+        # "uses" (plan-limited, e.g. 60 total on Free, never reset -- see --native-only
+        # above), so this loop is skipped entirely in that mode.
         for cf in custom_field_values:
             api_request(token, "POST", f"/task/{task_id}/field/{cf['id']}",
                         {"value": cf["value"]})
@@ -448,6 +468,9 @@ def main() -> None:
     parser.add_argument("--pull", action="store_true",
                          help="Pull changes from ClickUp back into the CSV, instead of "
                               "pushing the CSV to ClickUp")
+    parser.add_argument("--native-only", action="store_true",
+                         help="Push only status/priority/due-date/description; skip all "
+                              "per-field Custom Field API calls (see usage note above)")
     args = parser.parse_args()
 
     token = os.environ.get("CLICKUP_API_TOKEN")
@@ -459,9 +482,12 @@ def main() -> None:
         parser.error(f"CSV not found: {args.csv}")
 
     if args.pull:
+        if args.native_only:
+            parser.error("--native-only has no effect with --pull (reading is free; "
+                          "only writing Custom Field values consumes the quota)")
         pull(args.csv, token, args.list_id, args.dry_run)
     else:
-        sync(args.csv, token, args.list_id, args.dry_run)
+        sync(args.csv, token, args.list_id, args.dry_run, args.native_only)
 
 
 if __name__ == "__main__":
