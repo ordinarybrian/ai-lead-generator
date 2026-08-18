@@ -9,6 +9,10 @@ Brian's hosting/infrastructure question as a prospective customer lead. Also inv
 company name, "Brian Clark Designs," that doesn't exist -- likely a required-field
 default in whatever CRM/text tool they're using, not something Brian entered.
 
+Reply sent 2026-08-18 by text to Valerie. Brian edited the draft before sending, adding
+"I'd still love to talk to you guys about your current setup" to keep the door open for an
+actual conversation about hosting rather than just closing out the mix-up.
+
 ---
 
 **Received from Chuck (stock text):**
@@ -23,10 +27,11 @@ default in whatever CRM/text tool they're using, not something Brian entered.
 
 ---
 
-## Brian's reply (drafted, to send via text to Valerie)
+## Brian's reply (sent via text to Valerie 2026-08-18)
 
-Hi Valerie, that's a mix-up, I'm not looking for marketing help. I'm Brian with Inland Elite Hosting, I sent a question through your contact form for Chuck about how Adapt handles hosting for your maintenance clients as the list grows. No need to follow up on the customer-acquisition side, sorry for the confusion.
+Hi Valerie, that's a small mix-up, I'm not looking for marketing help. I run Inland Elite Hosting, I sent a question through your contact form for Chuck about how Adapt handles web hosting for your maintenance clients as the list grows. I’d still love to talk to you guys about your current setup.
 
+No need to follow up on the customer-acquisition side, sorry for the confusion.
 ---
 
 ## Notes
