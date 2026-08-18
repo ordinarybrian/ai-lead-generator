@@ -1,13 +1,14 @@
 # Chuck Kile, initial contact-form message v1 (2026-08-17)
 
-Status: Drafted, not sent. No confirmed email exists for Chuck Kile or the org itself --
-Brian declined to use chuck@groundwatermarketing.com (a cited but sister-company address,
-see `leads/adapt-digital-solutions/people/chuck-kile.md`) on 2026-08-17. The org's own
-`/contact-us/` page publishes no email, only a contact form, so this is written for
-submission there instead. Fact-finding/white-label angle, since Adapt Digital already
-sells its own bundled WordPress hosting+maintenance product -- a straightforward "take
-hosting off your hands" pitch would compete with that, not fill a gap (see organization.md
-and the "Angle for outreach" note in chuck-kile.md).
+Status: Submitted 2026-08-18 via https://adaptdigitalsolutions.com/contact-us/. No confirmed
+email exists for Chuck Kile or the org itself -- Brian declined to use
+chuck@groundwatermarketing.com (a cited but sister-company address, see
+`leads/adapt-digital-solutions/people/chuck-kile.md`) on 2026-08-17. The org's own
+`/contact-us/` page publishes no email, only a contact form, so this was submitted there
+instead. Fact-finding/white-label angle, since Adapt Digital already sells its own bundled
+WordPress hosting+maintenance product -- a straightforward "take hosting off your hands"
+pitch would compete with that, not fill a gap (see organization.md and the "Angle for
+outreach" note in chuck-kile.md).
 
 **Signature note (flagging per `email-rules/signature.md`):** this channel is a website
 contact form, not Brian's email client, so the auto-signature doesn't apply here. No
