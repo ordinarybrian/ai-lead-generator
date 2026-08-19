@@ -22,5 +22,4 @@ I run Blackbird, a marketing shop based in Post Falls, and we work with firms yo
 
 Curious what you think -- worth a conversation?
 
-Brian Clark
 Blackbird Digital

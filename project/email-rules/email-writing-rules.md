@@ -708,6 +708,12 @@ justify pricing
 
 ---
 
+# Sender Identity / Sign-off
+
+Sign every email "Blackbird Digital" — no personal name.
+
+---
+
 # Pricing / Compensation / Budget
 
 Do not mention price, compensation, or budget unless instructed.

@@ -24,5 +24,4 @@ I run Blackbird, a Post Falls marketing shop, and this is exactly the kind of po
 
 Open to a quick conversation about it?
 
-Brian Clark
 Blackbird Digital
