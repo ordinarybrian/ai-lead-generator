@@ -1,4 +1,7 @@
 {
+  "remoteControlAtStartup": false,
+  "disableRemoteControl": true,
+
   "permissions": {
     "allow": [
       "Read",
@@ -31,4 +34,5 @@
       "/Users/admin/Documents/AI Projects/leadgen-inlandelite/project/leads"
     ]
   }
+
 }

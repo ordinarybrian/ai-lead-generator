@@ -61,12 +61,29 @@ marked "Native" are handled by ClickUp's built-in task attributes, not a custom 
 | `priority` | This project's priority tier (e.g. `A+`, `A`, `B`, `C`). | Native — Priority (lossy: `A+` and `A` both map to ClickUp's single "Urgent" tier) |
 | `qualification_status` | Research verdict on whether this lead is worth pursuing, e.g. `qualified`, `disqualified`. | Drop Down: `qualified`, `disqualified` (add options as new verdicts appear) |
 | `fit_reason` | Free-text explanation of why the lead is (or isn't) a good fit — the evidence behind `qualification_status`. | Text |
-| `outreach_status` | Pipeline stage (e.g. `Researching`, `Ready for Outreach`, `Initial Email Sent`, `Follow-up 1 Sent`, `On Hold`, `Replied`, `No Response`, `Closed Won`, `Closed Lost`). | Native — Status (must exactly match a List Status, added via ClickUp's List settings — see `scripts/clickup_sync.py`'s docstring) |
+| `outreach_status` | Pipeline stage. **Fixed set, exactly seven values — do not invent new ones**: `Researching`, `Ready for Outreach`, `In Outreach`, `On Hold`, `Not Pursuing`, `Closed Won`, `Closed Lost`. `In Outreach` covers everything from the first email through every follow-up and any reply — which specific stage a lead is at (which follow-up number, whether they've replied) belongs in `next_action` and the `project/outreach/` files, not in this column. `Not Pursuing` vs. `Closed Lost`: use `Not Pursuing` when `contact_attempts` is `0` (disqualified or decided against during research, never actually contacted); use `Closed Lost` when `contact_attempts` is `1` or more (outreach happened and it didn't progress). See "Why only these statuses" below. | Native — Status (must exactly match a List Status defined in ClickUp's List settings — see `scripts/clickup_sync.py`'s docstring) |
 | `contact_attempts` | Running count of outreach attempts made so far. | Number |
 | `last_contact_date` | ISO date of the most recent actual contact attempt. | Date |
 | `next_action` | Free-text description of what to do next. | Text |
 | `next_action_date` | ISO date the next action is due — kept separate from `next_action` so due/overdue items can be sorted or queried instead of parsed out of prose. | Native — Due Date |
 | `notes` | Anything else worth recording. | Native — Description |
+
+## Why only these statuses
+
+`outreach_status` used to grow a new value every time (`Follow-up 1 Sent`, `Follow-up 2
+Sent`, `Follow-up 3 Sent`, ...). Since this column pushes to ClickUp's native Status
+field, which requires an exact match against a fixed dropdown of List Statuses, every new
+value silently failed to sync the moment it didn't match anything already defined in
+ClickUp — no error, the task's board status just quietly stayed on whatever it last
+matched. This is guaranteed to keep happening with any open-ended value, since a new
+string always eventually shows up that nobody added to ClickUp yet.
+
+The fix is to keep this column to the seven fixed values above, permanently, and put
+per-contact detail (draft version, which follow-up number, whether they've replied)
+in `next_action` (free text) and the dated files under `project/outreach/`, where it
+belongs anyway. If ClickUp is mainly being used for due-date reminders rather than a
+detailed pipeline board, this loses nothing — `next_action_date` is what actually drives
+the reminder.
 
 ## CSV hygiene rules
 
