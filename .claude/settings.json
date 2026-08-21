@@ -1,4 +1,5 @@
 {
+  "disableRemoteControl": true,
   "permissions": {
     "allow": [
       "Read",

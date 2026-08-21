@@ -20,3 +20,6 @@ client_secret*.json
 
 # Exact migration snapshots duplicate private lead data
 leads/backups/
+
+# personal information
+personal-info/
