@@ -47,6 +47,7 @@ string literal(s) in the script — see its module docstring and `NATIVE_COLUMNS
 | `email_confidence` | How sure you are the address is real: `verified` \| `possible` \| `pattern-based` \| `unverified`. Never mark `verified` without evidence. |
 | `email_delivery_status` | What's actually happened when it's been used: blank (not sent yet) \| `sent - no bounce` \| `bounced` \| `confirmed valid` \| `replied`. Kept separate from `email_confidence` — a guess can be confirmed by a clean send, and a "verified" address can still bounce. |
 | `backup_contact` | An alternate contact at the same organization, in `Name -- Title` format. Leave blank if none identified. |
+| `connection` | Existing personal/LinkedIn connection(s) at this organization, in `Name -- Title` format (semicolon-separated if multiple). Distinct from `primary_contact`/`backup_contact` — this tracks warm-intro potential, not who to actually contact. Re-verify current employment before relying on it; connection data can be years stale. |
 | `last_verified` | ISO date (`YYYY-MM-DD`) the contact's title/employment was last checked. Titles and jobs change — re-check before outreach if this is stale. |
 | `do_not_contact` | Leave blank normally. Set to `TRUE` if this lead should never be contacted again (explicit opt-out, bounced permanently, etc.). Always check this before drafting or sending. |
 | `priority` | This project's priority tier (e.g. `A+`, `A`, `B`, `C`). |

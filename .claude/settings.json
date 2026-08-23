@@ -1,6 +1,7 @@
 {
   "disableRemoteControl": true,
   "permissions": {
+    "disableRemoteControl": true,
     "allow": [
       "Read",
       "Grep",
