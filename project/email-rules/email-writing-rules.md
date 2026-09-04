@@ -131,6 +131,15 @@ Run every draft against all six gates before it ships. A draft that passes the b
 
 ---
 
+# Subject Lines
+
+Capitalize the subject like a normal email subject (sentence case). Do not force it to
+all-lowercase for open-rate reasons. It should still be short and specific, a real
+question or phrase from one professional to another, but it should not look artificially
+casual. "Who hosts your WordPress sites?" not "who hosts your WordPress sites?".
+
+---
+
 # Never Use Em Dashes
 
 Never use an em dash (—), anywhere, for any reason. Not for an aside, not for a list, not for rhythm.

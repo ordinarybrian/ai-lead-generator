@@ -5,13 +5,13 @@ Status: DRAFTED, NOT SENT. Awaiting Brian's approval before sending.
 ---
 
 **To:** axesswebdesign@gmail.com
-**Subject:** who hosts your WordPress sites?
+**Subject:** Who hosts your WordPress sites?
 
 Hi Kyle,
 
 Your FAQ page recommends WordPress for SEO-heavy or growing sites. That's exactly the kind of site where hosting quality shows up in load time and search rankings.
 
-I run Inland Elite Hosting out of Hayden. Mostly managed WordPress hosting and the upkeep that keeps a site fast after launch.
+I run Inland Elite Hosting locally in Hayden. Mostly managed WordPress hosting and the upkeep that keeps a site fast after launch.
 
 You work directly with clients with no agency handoffs. I run things pretty much the same way. For the WordPress builds specifically, that's something I could handle behind the scenes while you keep the design and SEO work.
 
@@ -48,7 +48,7 @@ Notes:
 - **Test 0 (Fact & Consent):** `do_not_contact` is blank on the Axess Web Design row in `project/leads/lead-index.csv` (column confirmed empty, not TRUE). `last_verified` is 2026-08-20, six days before this draft, not stale. Every fact used is traceable:
   - "Your FAQ page recommends WordPress for SEO-heavy or growing sites" — direct paraphrase of `organization.md` line 21 / `sources.md` line 9, quoting axesswebdesign.com/web-design-faq/ (retrieved 2026-08-20): "WordPress offers the most flexibility and is best for SEO-heavy or growing sites."
   - "You work directly with clients with no agency handoffs" — paraphrase of `organization.md` line 14, quoting axesswebdesign.com/about/: "You work directly with Kyle — no agency overhead, no project handoffs, no runaround."
-  - "Brian runs Inland Elite Hosting out of Hayden" — per `PROJECT.md` Working Style location-personalization rule: recipient is in Post Falls (`organization.md` line 7, `sources.md` line 5), so "Brian runs the business out of Hayden" is the one allowed location line. No other location claim is stacked (Post Falls, CDA, Spokane are not mentioned about Brian).
+  - "Brian runs Inland Elite Hosting locally in Hayden" — per `PROJECT.md` Working Style location-personalization rule: recipient is in Post Falls (`organization.md` line 7, `sources.md` line 5), so "Brian runs the business out of Hayden" is the one allowed location line. No other location claim is stacked (Post Falls, CDA, Spokane are not mentioned about Brian).
   - No claim that any specific named client site runs on WordPress — per the task constraint and `people/kyle-lawrence.md` line 26 ("Do not assume all of his client sites are WordPress — confirm before referencing 'your WordPress sites' broadly... frame around WordPress specifically"), the email frames WordPress as a category/question ("your WordPress sites," "the WordPress builds specifically") rather than inventing or naming a specific project, since no research file names one.
   - No mention of the $99/mo Care Package — the email stays on hosting/infrastructure only, which `organization.md` line 23 and `kyle-lawrence.md` line 19 identify as the non-competing angle (a maintenance-framed pitch would overlap the Care Package; a hosting-framed one does not).
   - No partnership terms, pricing, or white-label language offered — this is a first-contact plain referral pitch per the task constraint, consistent with `email-writing-rules.md` "Don't Invent Partnership Terms."

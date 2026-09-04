@@ -9,13 +9,13 @@ veteran-owned connection and their WordPress work specifically."
 
 **To:** rggraphxdesign@gmail.com (confidence: verified, published directly on the
 company's own homepage)
-**Subject:** veteran-owned to veteran-owned
+**Subject:** Veteran-owned to veteran-owned
 
 Hi Robert,
 
 Small world, I noticed RG Graph X Design is veteran owned. Inland Elite is too.
 
-I run Inland Elite Hosting out of Hayden. Mostly managed WordPress hosting, plus the ongoing maintenance that keeps a site fast after launch. Your own site's built on WordPress. Between that and the print and signage work you do, I didn't see hosting or maintenance listed as one of your services. If a client of yours ever needs that piece handled, I could take it on behind the scenes while you keep the relationship.
+I run Inland Elite Hosting locally in Hayden. Mostly managed WordPress hosting, plus the ongoing maintenance that keeps a site fast after launch. Your own site's built on WordPress. Between that and the print and signage work you do, I didn't see hosting or maintenance listed as one of your services. If a client of yours ever needs that piece handled, I could take it on behind the scenes while you keep the relationship.
 
 How do you handle hosting for the sites you build now?
 
@@ -115,7 +115,7 @@ Notes:
     what was noticed (consistent with the "I noticed / I came across" pattern the rules
     file itself gives as an acceptable way to reference something specific, not a Gate 2
     reflection sentence). Reads naturally out loud.
-  - "I run Inland Elite Hosting out of Hayden." — matches the location rule's exact
+  - "I run Inland Elite Hosting locally in Hayden." — matches the location rule's exact
     approved phrasing.
   - "Mostly managed WordPress hosting, plus the ongoing maintenance that keeps a site
     fast after launch." — a sentence fragment used for rhythm, same construction as the

@@ -5,7 +5,7 @@ Status: **DRAFTED, NOT SENT.** Awaiting Brian's approval before this goes out.
 ---
 
 **To:** info@cedarstreammedia.com (general company inbox; no personal address found for Loren anywhere — see `leads/cedar-stream-media/people/loren-whitney.md`. Addressed to him personally in the body since he runs the business alone, per `leads/cedar-stream-media/organization.md` and `leads/cedar-stream-media/leadership.md`. Greeting uses "Loren" only, not a surname — his own site never publishes "Whitney," and that surname is sourced only from a single BBB listing, not independently confirmed. See Notes below.)
-**Subject:** who's running the servers behind Sapling?
+**Subject:** Who's running the servers behind Sapling?
 
 Hi Loren,
 
