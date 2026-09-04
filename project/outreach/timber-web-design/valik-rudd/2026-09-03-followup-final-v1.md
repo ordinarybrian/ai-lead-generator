@@ -1,6 +1,6 @@
 # Valik Rudd, final follow-up / door-open note (2026-09-03)
 
-Status: Drafted 2026-09-03, not yet sent. No reply to the 2026-08-19 reply-3
+Status: **Sent 2026-09-04**, in-thread reply, as drafted with no edits. No reply to the 2026-08-19 reply-3
 (`2026-08-19-reply-3-white-label-v1.md`), which repositioned Agency Hosting/white-label as
 recurring revenue vs. his one-time SiteGround credit and asked his yearly site volume.
 That's ~15 days of silence, and this is the fifth contact in the thread. Per PROJECT.md's
