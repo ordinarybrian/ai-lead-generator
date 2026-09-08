@@ -1,10 +1,12 @@
 # Halvor Halversen (OctoFox Creative) — initial email v1 (2026-09-02)
 
-Status: **DRAFTED, NOT SENT.** Awaiting Brian's approval. `do_not_contact` blank on the
-OctoFox Creative row; `last_verified` 2026-08-20. Per `next_action`: "Draft low-key
-initial outreach to the general inbox; confirm owner name and client-site platform before
-assuming strong fit." Owner name and client platform are both unconfirmed, so the email
-stays low-key and asks the platform question.
+Status: **SENT 2026-09-08 (Brian) — HARD BOUNCED same day.** "Address not found: Your
+message wasn't delivered to contact@octofoxcreative.com because the address couldn't be
+found, or is unable to receive mail." This was the only email ever found for OctoFox.
+Lead moved to **Not Pursuing 2026-09-08** per Brian: no contact form on the site, and a
+cold text to the site phone isn't worth it for a low-confidence C lead. `email_confidence`
+downgraded to unverified; `email_delivery_status` = "bounced - address not found
+2026-09-08". Draft kept for the record.
 
 ---
 

@@ -1,6 +1,7 @@
 # Kyle Lawrence, initial email v1 (2026-08-26)
 
-Status: DRAFTED, NOT SENT. Awaiting Brian's approval before sending.
+Status: **SENT 2026-09-08** (Brian) to axesswebdesign@gmail.com. Recorded as sent per
+Brian's 2026-09-08 message; if the wording was edited on send, add an "As sent" block.
 
 ---
 

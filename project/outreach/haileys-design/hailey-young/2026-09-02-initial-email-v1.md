@@ -1,6 +1,8 @@
 # Hailey Young (Hailey's Design) — initial outreach v1 (2026-09-02)
 
-Status: **DRAFTED, NOT SENT.** Awaiting Brian's approval.
+Status: **SENT 2026-09-02** (Brian) to haileys.design.services@gmail.com. Recorded as
+sent per Brian's 2026-09-08 message; if the wording was edited on send, add an "As sent"
+block.
 
 Email found 2026-09-02: haileys.design.services@gmail.com, linked from her own site
 (`email_confidence` verified). Note: this is a low-priority, part-time operation (day job

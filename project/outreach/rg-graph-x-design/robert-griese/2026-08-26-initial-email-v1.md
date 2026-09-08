@@ -1,9 +1,10 @@
 # Robert Griese, initial email v1 (2026-08-26)
 
-Status: **DRAFTED, NOT SENT.** Awaiting Brian's review/approval. `do_not_contact` is
-blank on the RG Graph X Design row in `leads/lead-index.csv`, `last_verified` 2026-08-20
-(recent). Per `next_action` on that row: "Draft initial outreach referencing the
-veteran-owned connection and their WordPress work specifically."
+Status: **SENT 2026-09-08** (Brian) to rggraphxdesign@gmail.com. Recorded as sent per
+Brian's 2026-09-08 message; if the wording was edited on send, add an "As sent" block.
+`do_not_contact` blank on the RG Graph X Design row, `last_verified` 2026-08-20. Per
+`next_action` on that row: "Draft initial outreach referencing the veteran-owned
+connection and their WordPress work specifically."
 
 ---
 

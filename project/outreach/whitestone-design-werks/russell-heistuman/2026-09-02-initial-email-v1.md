@@ -1,10 +1,10 @@
 # Russell Heistuman — initial email v1 (2026-09-02)
 
-Status: **DRAFTED, NOT SENT.** Awaiting Brian's approval. `do_not_contact` blank on the
-Whitestone Design Werks row; `last_verified` 2026-09-02. Per `next_action`: "Confirm
-client-site platform and current activity level, then draft low-key initial outreach to
-mail@wdwerks.com / Russell Heistuman." Platform is unconfirmed, so the email asks it
-directly (same approach as the sent STUDIO H draft).
+Status: **SENT 2026-09-08** (Brian) to mail@wdwerks.com. Recorded as sent per Brian's
+2026-09-08 message; if the wording was edited on send, add an "As sent" block.
+`do_not_contact` blank on the Whitestone Design Werks row; `last_verified` 2026-09-02.
+Platform was unconfirmed, so the email asks it directly (same approach as the sent STUDIO
+H draft).
 
 ---
 

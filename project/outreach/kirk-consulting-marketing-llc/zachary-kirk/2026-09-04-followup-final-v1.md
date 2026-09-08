@@ -1,10 +1,11 @@
 # Zachary Kirk, final follow-up / door-open note (2026-09-04)
 
-Status: Drafted 2026-09-04, not yet sent. No reply to either the initial email
-(2026-08-12) or follow-up 1 (2026-08-20, `2026-08-20-followup-1-v1.md`) -- 15 days
-of silence since the last touch, landing inside PROJECT.md's Day 14-17 "one final
-substantive follow-up" window. Brian asked for this to be the final follow-up and to
-be thankful in it.
+Status: **NEVER SENT. Lead closed lost 2026-09-08 per Brian** (no response to the initial
+email 2026-08-12 or follow-up 1 2026-08-20). This final follow-up was drafted 2026-09-04
+(QA PASS) but Brian decided not to send it. Kept for the record. Also note: Kirk likely
+refers hosting to Peace Harbor (a disqualified competitor, see the lead notes), so a fit
+was unlikely regardless. Brian asked for this to be the final follow-up and to be
+thankful in it.
 
 This lead has stayed in a deliberate fact-finding-only lane throughout (Brian's
 2026-08-11 instruction, logged in the initial-email file): learn what Zachary
