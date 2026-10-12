@@ -1,0 +1,3 @@
+interface:
+  display_name: "Pipeline Management"
+  short_description: "Maintain and audit the lead pipeline"

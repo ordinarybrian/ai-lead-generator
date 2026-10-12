@@ -1,0 +1,4 @@
+# Shared defaults for this repository. Keep models, credentials, and external-service
+# configuration in user or workspace settings unless the project explicitly needs them.
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"

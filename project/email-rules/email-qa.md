@@ -387,15 +387,31 @@ EMAIL QA
 Fact & Consent Check..... PASS
 Gate Check (Human Test)... PASS
 AI Test................... PASS
-Buzzword Test............ PASS
-Sales Test............... PASS
-Executive Test........... PASS
-Curiosity Test........... PASS
-Vision Test.............. PASS
-Personalization.......... PASS
-Word Count............... PASS
+Buzzword Test............. PASS
+Sales Test................ PASS
+Executive Test............ PASS
+Curiosity Test............ PASS
+Vision Test............... PASS
+Personalization Test...... PASS
+One Idea Test............. PASS
+CTA Test.................. PASS
+Adjective Test............ PASS
+Could Test................ PASS
+Reading Level............. PASS
+Paragraph Test............ PASS
+Word Count................ PASS
+Rewrite Test.............. PASS
+Remove One Sentence Test.. PASS
+Forward Test.............. PASS
+Memory Test............... PASS
+Why Them? Test............ PASS
+Final Gate................ PASS
 
-Overall: 9/10
+Overall: PASS
 
-Reason for failure:
-The phrase "strategic opportunity" makes the email sound like a pitch. Rewrite without that phrase.
+If any test fails, use this instead:
+
+Overall: FAIL
+Failed test(s): [test name and number]
+Reason: [specific sentence or fact that caused the failure]
+Required fix: [what must change before the draft can pass]

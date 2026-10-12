@@ -10,7 +10,8 @@ project-specific work.
 
 ## Context routing
 
-Read only the files relevant to the current objective. Always read this file first.
+Read only the files relevant to the current objective. Codex loads this file before work;
+use a matching repository skill from `.agents/skills/` when one is available.
 
 - Lead discovery or grading: `project/leads/README.md`, then `project/leads/lead-index.csv`; read an organization folder only when evaluating that organization.
 - Organization research: `project/leads/<organization-slug>/organization.md`, `leadership.md`, and `sources.md` as needed.
@@ -37,7 +38,7 @@ Read only the files relevant to the current objective. Always read this file fir
 - Never invent contacts, email addresses, company facts, budgets, priorities, or mission statements. Label `email_confidence` as verified, possible, pattern-based, or unverified — and keep `email_delivery_status` (what actually happened when it was used) separate from that confidence label.
 - Record supporting URLs where practical and verify current titles and contact details before outreach.
 - Inspect the CSV schema before editing it. Preserve columns and existing research, avoid duplicates, and back up the CSV before broad changes.
-- Before editing `project/leads/lead-index.csv` in a session, run `python3 scripts/clickup_sync.py --pull --dry-run` to check whether ClickUp holds changes (e.g. a task dragged to a new status) that aren't reflected locally yet. Reconcile any drift with a real `--pull` before making further edits, so changes build on the true current state rather than a stale local copy.
+- ClickUp is not configured for this implementation. Do not run `scripts/clickup_sync.py` or attempt a ClickUp connection unless the user explicitly asks to set up or use ClickUp.
 - Never write a sentinel value (`FALSE`, `N/A`, `TBD`) into a date or status cell to mean "no value yet" — leave it genuinely blank. See `project/leads/README.md`'s CSV hygiene rules.
 - Before adding a new organization row, check for an existing row with the same or a near-identical name. Do not create duplicate rows with divergent data.
 - Grade leads on strategic fit, practical use, budget or likelihood-to-act, contact authority, explainability, internal sponsorship, and response likelihood—not organization size alone.

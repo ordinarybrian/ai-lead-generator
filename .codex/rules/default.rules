@@ -1,0 +1,37 @@
+# Permit routine, read-only repository checks when Codex needs to run outside its sandbox.
+# Deliberately omit staging, committing, pushing, external services, and destructive commands.
+
+prefix_rule(
+    pattern = ["git", "status"],
+    decision = "allow",
+    justification = "Inspect the working tree.",
+    match = ["git status", "git status --short"],
+)
+
+prefix_rule(
+    pattern = ["git", "diff"],
+    decision = "allow",
+    justification = "Inspect uncommitted changes.",
+    match = ["git diff", "git diff --stat"],
+)
+
+prefix_rule(
+    pattern = ["git", "log"],
+    decision = "allow",
+    justification = "Inspect repository history.",
+    match = ["git log --oneline -5"],
+)
+
+prefix_rule(
+    pattern = ["python3", "-m", "py_compile", "scripts/clickup_sync.py"],
+    decision = "allow",
+    justification = "Run the sync script's offline syntax check.",
+    match = ["python3 -m py_compile scripts/clickup_sync.py"],
+)
+
+prefix_rule(
+    pattern = ["python3", "scripts/clickup_sync.py", "--help"],
+    decision = "allow",
+    justification = "Inspect the sync script's command-line interface without contacting ClickUp.",
+    match = ["python3 scripts/clickup_sync.py --help"],
+)

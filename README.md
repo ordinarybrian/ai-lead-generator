@@ -7,10 +7,10 @@ person at the right organization with a message that doesn't sound like a mass e
 ## What this is
 
 There's no hosted app, no database, no build step. Leads and outreach live as plain
-markdown and CSV files in this repository. An AI coding agent — Claude Code, or any
-other agent that reads an `AGENTS.md`-style instructions file — reads those files,
-researches organizations and people, updates the pipeline CSV, and drafts outreach that
-it runs through a Pass/Fail QA checklist before handing it to you. The agent never sends
+markdown and CSV files in this repository. Codex is the primary AI coding agent: it
+reads the repository's `AGENTS.md` and focused workflow skills, researches organizations
+and people, updates the pipeline CSV, and runs drafted outreach through a Pass/Fail QA
+checklist before handing it to you. The agent never sends
 anything automatically; drafting is not authorization to contact anyone.
 
 ## When to use it
@@ -36,7 +36,9 @@ This template is deliberately generic. Example use cases:
 | `project/outreach/` | Drafted outreach and QA results, one folder per organization/person. Ships empty. |
 | `project/email-rules/` | The writing rules (Pass/Fail Gates, banned-phrase lists) and the QA checklist every draft must pass. Domain-agnostic; rarely needs editing. |
 | `examples/sample-domain-brokerage/` | A fully worked reference example — a real, populated instance of this framework from the project it was built for. |
-| `.claude/` | Claude Code permission settings. Already generic; no changes needed. |
+| `.codex/` | Codex project defaults and safe command rules. |
+| `.agents/skills/` | Focused Codex workflows for lead research, pipeline management, drafting, and QA. |
+| `.claude/` | Optional Claude Code compatibility settings. Codex is the primary supported agent. |
 | `scripts/clickup_sync.py` | Optional: syncs `project/leads/lead-index.csv` into a ClickUp List, one task per organization. Idempotent, dry-run supported. See its module docstring and `project/leads/README.md`. |
 | `.env.example` | Template for `scripts/clickup_sync.py`'s credentials. Copy to `.env` (gitignored) and fill in. |
 
@@ -59,28 +61,18 @@ This template is deliberately generic. Example use cases:
    need changes — but swap the worked examples for something closer to your own pitch
    if you want, and replace the placeholder names in the "Final Gate" section of
    `project/email-rules/email-qa.md` with your project's actual top prospects.
-5. Open the project in Claude Code (or another coding agent that reads `AGENTS.md`) and
+5. Run `python3 scripts/validate_project.py --template` to validate the shipped
+   framework. Once you replace the placeholders with a real project, run the command
+   without `--template`.
+6. Open the project in Codex and
    give it a first task — for example: *"research Acme Corp as a potential lead and
    create its project/leads/ folder."*
-6. Look at `examples/sample-domain-brokerage/` for a fully worked reference showing what
+7. Look at `examples/sample-domain-brokerage/` for a fully worked reference showing what
    a populated project looks like end to end, from a researched lead through a QA'd
    outreach draft.
-7. **(Optional) Connect ClickUp**, if you want the pipeline mirrored into a ClickUp List
-   instead of (or alongside) the CSV:
-   - **Conversational task management** — register ClickUp's MCP server so Claude Code
-     can create/update individual tasks, comments, etc. directly:
-     `claude mcp add --transport http clickup https://mcp.clickup.com/mcp -s local`
-     (use `-s project` instead if you want the registration committed and shared via
-     `.mcp.json`), then run `/mcp` to complete OAuth login. Registration is scoped to
-     this project directory — a different project needs its own `claude mcp add`, and
-     each ClickUp account you connect needs its own OAuth login.
-   - **Bulk CSV sync** — for keeping a whole ClickUp List in sync with
-     `project/leads/lead-index.csv` (idempotent, dry-run supported), use
-     `scripts/clickup_sync.py` instead: copy `.env.example` to `.env`, fill in
-     `CLICKUP_API_TOKEN` and `CLICKUP_LIST_ID`, then run
-     `python3 scripts/clickup_sync.py --dry-run` to preview. See the script's module
-     docstring and `project/leads/README.md` for the setup ClickUp needs (matching
-     custom fields and statuses) and which CSV columns are special-cased.
+
+ClickUp is intentionally not part of this implementation's Codex setup. The existing
+optional sync script and its configuration remain unchanged for a future opt-in.
 
 ## How the agent workflow works
 
@@ -104,6 +96,9 @@ organizations, and `do_not_contact` violations — without touching any other fi
 `AGENTS.md` defines a **context-routing** table so the agent only reads the files
 relevant to the current objective — it doesn't load the whole project tree for every
 task.
+
+Codex also discovers the repository skills in `.agents/skills/` automatically. They
+provide task-specific procedures without loading all outreach guidance for every task.
 
 ## Conventions
 
@@ -137,3 +132,16 @@ You should generally **not** need to touch:
 - The Pass/Fail Gate mechanics and QA checklist structure in `project/email-rules/`.
 - The folder structure (`project/leads/<org>/{organization,leadership,sources}.md`,
   `project/leads/<org>/people/`, `project/outreach/<org>/<person>/`).
+
+## Validation
+
+Run the offline validation before treating a project as ready:
+
+```sh
+python3 scripts/validate_project.py --template  # framework as shipped
+python3 scripts/validate_project.py             # configured project
+python3 -m unittest discover -s tests
+```
+
+The validator never contacts external services. The unit tests cover the pure,
+offline portions of the optional ClickUp sync script.
